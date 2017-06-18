@@ -6,7 +6,6 @@ import Footer from './components/footer';
 
 export default class App extends Component {
 	render() {
-		console.log('hi');
 		return (
 			<div>
 				<Header />
