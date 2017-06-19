@@ -4,11 +4,11 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<div className="footer">
-				<div className="footer-links">
-					<a href="" className="footer-link-social"><i className="fa fa-twitter-square"></i></a>
-					<a href="" className="footer-link-social"></a>
-					<a href="" className="footer-link-social"></a>
-					<a href="" className="footer-link-social"></a>
+				<div className="social-links">
+					<a href="" className="footer-link-social"><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="" className="footer-link-social"><i className="fa fa-codepen" aria-hidden="true"></i></a>
+					<a href="" className="footer-link-social"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+					<a href="" className="footer-link-social"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
 				</div>
 				<div className="footer-contact">
 					<a href="tel:+15126631673" className="footer-contact-link">512-663-1673</a>
