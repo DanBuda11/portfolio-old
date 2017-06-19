@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter } from 'react-router-dom';
 
 import App from './scripts/app';
 
-ReactDOM.render(<App />, document.getElementById('entry'));
+ReactDOM.render(
+	<HashRouter>
+		<App />
+	</HashRouter>
+	, document.getElementById('entry'));
+
 

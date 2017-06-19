@@ -1,3 +1,63 @@
 @import 'variables';
 @import 'helpers';
 
+.nav {
+
+	.menu-mobile {
+
+	}
+
+	.nav-mobile {
+		display: none;
+
+		.nav-mobile-1 {
+
+		}
+
+		.nav-mobile-2 {
+
+		}
+
+		.nav-mobile-3 {
+
+		}
+	}
+
+	.nav-tablet {
+
+		.nav-tablet-1 {
+
+		}
+
+		.menu-tablet {
+
+		}
+
+		.nav-tablet-dropdown {
+			display: none;
+			
+			.nav-tablet-2 {
+
+			}
+
+			.nav-tablet-3 {
+
+			}
+		}
+	}
+
+	.nav-desktop {
+
+		.nav-desktop-1 {
+
+		}
+
+		.nav-desktop-2 {
+
+		}
+
+		.nav-desktop-3 {
+
+		}
+	}
+}
