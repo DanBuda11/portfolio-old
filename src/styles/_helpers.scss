@@ -1,0 +1,17 @@
+@mixin burger-style () {
+	cursor: pointer;
+	float: right;
+}
+
+@mixin dropdown-section () {
+	float: right;
+	clear: right;
+	margin-right: 0.6em;
+}
+
+@mixin dropdown-link () {
+	text-decoration: none;
+	float: right;
+	clear: right;
+	display: inline-block;
+}
