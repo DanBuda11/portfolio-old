@@ -23,8 +23,15 @@ export default class Portfolio extends Component {
 
 		return (
 			<div className="portfolio">
-				<div>Photo w/name & title</div>
-				<div>portfolio items</div>
+				<div className="portfolio-title">
+					<h2>Dan Buda</h2>
+					<h3>Web Developer</h3>
+				</div>
+				<div className="portfolio-bio">
+					<img src="/src/images/dan.png" />
+					<p>Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>
+				</div>
+				<div className="portfolio-projects">portfolio items</div>
 				{projects}
 			</div>
 		);
