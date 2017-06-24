@@ -17,7 +17,12 @@ export default class Portfolio extends Component {
 				<ProjectThumb
 					key={i}
 					id={i}
-					name={project.name} />
+					name={project.name}
+					img={project.image}
+					blurb={project.blurb}
+					githubLink={project.githubLink}
+					liveLink={project.liveLink}
+					tech={project.tech} />
 			);
 		});
 
@@ -31,7 +36,6 @@ export default class Portfolio extends Component {
 					<img src="/src/images/dan.png" />
 					<p>Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>
 				</div>
-				<div className="portfolio-projects">portfolio items</div>
 				{projects}
 			</div>
 		);
