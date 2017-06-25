@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import getProjects from '../actions/index';
+import * as ActionCreators from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 class Portfolio extends Component {
-	componentWillMount() {
-		console.log('didmount');
-		this.props.fetchProjects();
-	}
+	// componentWillMount() {
+	// 	console.log('didmount');
+	// 	this.props.fetchProjects();
+	// }
 
 	renderProjects() {
 		console.log('props: ', this.props);
@@ -52,9 +52,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => {
-	return {
-		fetchProjects: () => dispatch(getProjects())
-	};
+	return bindActionCreators(ActionCreators, dispatch);
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Portfolio);
