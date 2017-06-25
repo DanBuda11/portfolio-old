@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { routerReducer } from 'react-router-redux';
+import { getProjects, getProject } from './projects';
+// import { routerReducer } from 'react-router-redux';
 
-import projects from './projects';
-
-const rootReducer = combineReducers({ projects, routing: routerReducer});
-
-export default rootReducer;
+export default combineReducers({
+	getProjects,
+	getProject
+});
