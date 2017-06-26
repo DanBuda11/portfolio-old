@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Portfolio from '../containers/portfolio';
+import Portfolio from './portfolio';
 import About from './about';
-import Project from '../containers/project';
+import Project from './project';
 
 const Main = () => (
 	<div>

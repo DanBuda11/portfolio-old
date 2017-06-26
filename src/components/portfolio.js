@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import selectProject from '../actions/index';
-import { bindActionCreators } from 'redux';
+import data from '../data/project-data';
+import ProjectThumb from './project-thumb';
 
-class Portfolio extends Component {
+export default class Portfolio extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			projects: data
+		}
+	}
+
 	renderProjects() {
-		return this.props.projects.map((project, i) => {
+		return this.state.projects.map((project, i) => {
 			return (
 				<ProjectThumb
 					key={i}
 					id={i}
 					name={project.name}
-					img={project.image}
+					image={project.image}
 					blurb={project.blurb}
 					githubLink={project.githubLink}
 					liveLink={project.liveLink}
@@ -37,15 +43,3 @@ class Portfolio extends Component {
 		);
 	}
 }
-
-function mapStateToProps(state) {
-	return {
-		projects: state.projects
-	}
-}
-
-function mapDispatchToProps(dispatch) {
-	return bindActionCreators({ selectProject: selectProject}, dispatch);
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Portfolio);
