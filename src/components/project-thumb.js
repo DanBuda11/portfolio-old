@@ -8,7 +8,7 @@ export default class ProjectThumb extends Component {
 				<div className="project-thumb-image-div">
 					<img src={require(`./../images/${this.props.image}`)} />
 				</div>
-				<div className="project-name-thumb-div">
+				<div className="project-thumb-name-div">
 					<p>{this.props.name}</p>
 				</div>
 			</Link>

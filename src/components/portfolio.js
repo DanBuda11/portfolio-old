@@ -10,8 +10,8 @@ export default class Portfolio extends Component {
 		}
 	}
 
-	renderProjects() {
-		return this.state.projects.map((project, i) => {
+	render() {
+		const projects = this.state.projects.map((project, i) => {
 			return (
 				<ProjectThumb
 					key={i}
@@ -25,9 +25,7 @@ export default class Portfolio extends Component {
 				/>
 			);
 		});
-	}
 
-	render() {
 		return (
 			<div className="portfolio">
 				<div className="portfolio-title">
@@ -38,7 +36,9 @@ export default class Portfolio extends Component {
 					<img src="/src/images/dan.png" />
 					<p>Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>
 				</div>
-				{this.renderProjects()}
+				<div className="projects-grid">
+					{projects}
+				</div>
 			</div>
 		);
 	}
