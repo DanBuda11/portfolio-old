@@ -5,7 +5,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/real-estate-app',
 		liveLink: 'http://home-finder-lite.herokuapp.com/',
-		tech: ['React']
+		tech: ['React', 'Node', 'Backbone']
 	},
 	{
 		name: 'Buda Fooda',
