@@ -211,36 +211,43 @@
 }
 
 .project-page {
-	margin-top: 0.8em;
+	margin-top: 0.6em;
 
 	.breadcrumb {
 		text-decoration: none;
 		color: #fff;
-		margin-left: 0.4em;
-		font-size: 1.1em;
+		margin-left: 0.7em;
 		background-color: red;
-		padding: 0.3em 0.7em;
+		padding: 0.3em 0.7em 0.3em 0.5em;
 		border-radius: 0.4em;
 
 		.fa-long-arrow-left {
-			margin-right: 0.5em;
+			vertical-align: middle;
 		}
 	}
 
 	.project-name {
 		margin-top: 1em;
+		text-align: center;
+		font-size: 1.8em;
 	}
 
 	.project-image {
-
+		width: 90%;
+		margin: 1em auto;
+		display: block;
+		border: 1px solid #000;
 	}
 
 	.project-blurb {
-
+		padding-left: 1em;
 	}
 
 	.project-link {
-
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		margin: 0.7em;
 	}
 }
 

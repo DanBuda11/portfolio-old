@@ -12,3 +12,20 @@ render(
 );
 
 
+// Use Pablo to make images
+	// Test using both Twiiter-size and square images for all screen sizes,
+	// thumbnails and project page.
+	// Credit Pablo with link in README
+
+// Make README pretty extensive and don't wait until the end to start writing it
+
+// Before final push to GitHub and final deploy, clean up code really well,
+// create as many Sass variables and mixins as possible, clean up Sass to make it
+// as small as possible
+
+// Make sure to test CSS breakpoints on all devices, including different computers
+// and Susie's phone
+
+// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf in README
+
+// Create testing and make tests, make sure to include in .gitignore

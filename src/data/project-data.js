@@ -62,5 +62,17 @@ export default [
 		githubLink: 'https://github.com/DanBuda11/swapi',
 		liveLink: 'http://swapi-danbuda.surge.sh/',
 		tech: ['React']
+	},
+	{
+		name: 'Test Project',
+		image: 'test-image.png',
+		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+		githubLink: 'https://github.com/DanBuda11/swapi',
+		tech: ['React', 'Backbone', 'Sass', 'Webpack']
 	}
 ];
+
+
+
+
+
