@@ -13,8 +13,8 @@ export default class Footer extends Component {
 				<div className="footer-contact">
 					<a href="tel:+15126631673" className="footer-contact-link">512-663-1673</a>
 					<a href="mailto:danbuda@gmail.com" className="footer-contact-link">danbuda@gmail.com</a>
+					<p className="copyright">&copy;{`${new Date().getFullYear()}`} Dan Buda</p>
 				</div>
-				<p className="copyright">&copy;{`${new Date().getFullYear()}`} Dan Buda</p>
 			</div>
 		);
 	}

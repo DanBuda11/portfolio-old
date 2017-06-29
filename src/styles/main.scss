@@ -256,8 +256,9 @@
 .footer {
 	text-align: center;
 	margin-top: 1em;
-	padding: 1em;
+	padding: 1em 0 0;
 	background-color: #ddd;
+	overflow: hidden;
 
 	.social-links {
 		margin-bottom: 1em;
@@ -275,10 +276,10 @@
 			display: block;
 			margin-bottom: 1em;
 		}
-	}
 
-	.copyright {
-		margin: 0;
+		.copyright {
+			margin: 0;
+		}
 	}
 }
 
@@ -317,6 +318,37 @@
 
 			.project-thumb {
 				width: 45%;
+			}
+		}
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: row;
+
+		.social-links {
+			width: 35%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			margin: 0 4em 0 2em;
+
+			.footer-link-social {
+				width: 27%;
+				margin-bottom: 0.5em;
+			}
+		}
+		.footer-contact {
+			width: 53%;
+			margin-top: 0.5em;
+
+			a {
+				
+			}
+
+			.copyright {
+
 			}
 		}
 	}

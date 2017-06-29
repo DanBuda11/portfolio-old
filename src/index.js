@@ -29,3 +29,6 @@ render(
 // Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf in README
 
 // Create testing and make tests, make sure to include in .gitignore
+
+// Need to fix function that sets last row of projects
+// the left. Not working in 2-column view
