@@ -12,13 +12,13 @@ export default class Project extends Component {
 
 	render() {
 		return (
-			<div>
-				<Link to="/">Home</Link>
-				<div>{this.state.project.name}</div>
-				<img src={require(`./../images/${this.state.project.image}`)} />
-				<div>{this.state.project.blurb}</div>
-				<div>{this.state.project.githubLink}</div>
-				<div>{this.state.project.liveLink}</div>
+			<div className="project-page">
+				<Link className="breadcrumb" to="/"><i className="fa fa-long-arrow-left"></i>Back</Link>
+				<div className="project-name">{this.state.project.name}</div>
+				<img className="project-image" src={require(`./../images/${this.state.project.image}`)} />
+				<div className="project-blurb">{this.state.project.blurb}</div>
+				<div className="project-link">{this.state.project.githubLink}</div>
+				<div className="project-link">{this.state.project.liveLink}</div>
 			</div>
 		);
 	}

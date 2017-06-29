@@ -45,6 +45,7 @@
 		.nav-mobile-3 {
 			@include dropdown-section();
 			padding-bottom: 1em;
+			margin-top: 0.2em;
 
 			a {
 				margin-left: 1.3em;
@@ -183,7 +184,13 @@
 				justify-content: space-around;
 
 				.project-thumb-tech-item {
-
+					background-color: #000;
+					color: #fff;
+					padding: 0.5em 0.7em;
+					border-radius: 0.4em;
+					width: 21%;
+					text-align: center;
+					font-size: 0.8em;
 				}
 			}
 
@@ -202,6 +209,42 @@
 	}
 	
 }
+
+.project-page {
+	margin-top: 0.8em;
+
+	.breadcrumb {
+		text-decoration: none;
+		color: #fff;
+		margin-left: 0.4em;
+		font-size: 1.1em;
+		background-color: red;
+		padding: 0.3em 0.7em;
+		border-radius: 0.4em;
+
+		.fa-long-arrow-left {
+			margin-right: 0.5em;
+		}
+	}
+
+	.project-name {
+		margin-top: 1em;
+	}
+
+	.project-image {
+
+	}
+
+	.project-blurb {
+
+	}
+
+	.project-link {
+
+	}
+}
+
+
 
 .footer {
 	text-align: center;
