@@ -32,3 +32,8 @@ render(
 
 // Need to fix function that sets last row of projects
 // the left. Not working in 2-column view
+	// But this is only going to work with a set # of
+	// projects. Need a different solution
+
+// For responsive styling, start working with more
+// breakpoints and just make changes as neccesary

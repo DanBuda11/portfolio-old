@@ -53,8 +53,8 @@ export default class Portfolio extends Component {
 					<h3>Web Developer</h3>
 				</div>
 				<div className="portfolio-bio">
-					<img src="/src/images/dan.png" />
-					<p>Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>
+					<img className="bio-pic" src="/src/images/dan.png" />
+					<p className="bio-blurb">Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>
 				</div>
 				<div className="projects-grid">
 					{this.addDummyElements(projects)}
