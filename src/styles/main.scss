@@ -7,7 +7,8 @@
 
 .nav {
 	overflow: hidden;
-	background-color: #ddd;
+	background-color: $header-back;
+	color: $header-font;
 
 	.nav-img {
 		height: 3em;
@@ -49,6 +50,7 @@
 
 			a {
 				margin-left: 1.3em;
+				color: $header-font;
 			}
 		}
 	}
@@ -64,6 +66,7 @@
 				text-decoration: none;
 				margin: 0 1em;
 				font-weight: bold;
+				color: $header-font;
 			}
 		}
 
@@ -89,6 +92,7 @@
 
 				a {
 					margin-left: 1.3em;
+					color: $header-font;
 				}
 			}
 		}
@@ -106,6 +110,7 @@
 			a {
 				margin: 1em;
 				text-decoration: none;
+				color: $header-font;
 			}
 		}
 
@@ -186,8 +191,8 @@
 				justify-content: space-around;
 
 				.project-thumb-tech-item {
-					background-color: #000;
-					color: #fff;
+					background-color: $thumb-tech-back;
+					color: $thumb-tech-font;
 					padding: 0.5em 0.7em;
 					border-radius: 0.4em;
 					width: 21%;
@@ -217,9 +222,9 @@
 
 	.breadcrumb {
 		text-decoration: none;
-		color: #fff;
+		color: $breadcrumb-font;
 		margin-left: 0.7em;
-		background-color: red;
+		background-color: $breadcrumb-back;
 		padding: 0.3em 0.7em 0.3em 0.5em;
 		border-radius: 0.4em;
 
@@ -259,7 +264,7 @@
 	text-align: center;
 	margin-top: 1em;
 	padding: 1em 0 0;
-	background-color: #ddd;
+	background-color: $footer-back;
 	overflow: hidden;
 
 	.social-links {
@@ -267,6 +272,7 @@
 
 		a {
 			margin: 0 0.5em;
+			color: $footer-font;
 		}
 	}
 
@@ -277,10 +283,12 @@
 			text-decoration: none;
 			display: block;
 			margin-bottom: 1em;
+			color: $footer-font;
 		}
 
 		.copyright {
 			margin: 0;
+			color: $footer-font;
 		}
 	}
 }
@@ -392,6 +400,31 @@
 
 			.project-thumb {
 				width: 30%;
+			}
+		}
+	}
+
+	.footer {
+		padding: 1em 2em;
+
+		.social-links {
+			width: 65%;
+			padding-bottom: 0;
+
+			.footer-link-social {
+				width: 15%;
+				margin: auto;
+			}
+		}
+
+		.footer-contact {
+
+			a {
+
+			}
+
+			.copyright {
+
 			}
 		}
 	}
