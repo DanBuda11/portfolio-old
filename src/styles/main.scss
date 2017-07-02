@@ -65,8 +65,16 @@
 			a {
 				text-decoration: none;
 				margin: 0 1em;
-				font-weight: bold;
+				// font-weight: bold;
 				color: $header-font;
+				transition: all 0.3s ease 0s;
+				padding: 0.4em;
+				border-radius: 0.3em;
+			}
+
+			a:hover {
+				background-color: $header-font;
+				color: $header-back;
 			}
 		}
 
@@ -177,6 +185,7 @@
 			margin: 1em auto;
 			text-decoration: none;
 			display: block;
+			transition: all .2s ease-in-out;
 
 			.project-thumb-image-div {
 
@@ -189,6 +198,7 @@
 				display: flex;
 				flex-direction: row;
 				justify-content: space-around;
+				margin-top: 1em;
 
 				.project-thumb-tech-item {
 					background-color: $thumb-tech-back;
@@ -205,8 +215,18 @@
 
 				p {
 					text-align: center;
+					background-color: $thumb-title-back;
+					color: $thumb-title-font;
+					padding: 0.7em;
+					margin-left: 2em;
+					margin-right: 2em;
+					border-radius: 0.4em;
 				}
 			}
+		}
+
+		.project-thumb:hover {
+			transform: scale(1.1);
 		}
 
 		.dummy-project {
@@ -391,6 +411,20 @@
 			flex-direction: row;
 			justify-content: space-around;
 			flex-wrap: wrap;
+
+			.nav-desktop-1, .nav-desktop-2, .nav-desktop-3 {
+
+				a {
+					transition: all 0.3s ease 0s;
+					padding: 0.4em;
+					border-radius: 0.3em;
+				}
+
+				a:hover {
+					background-color: $header-font;
+					color: $header-back;
+				}
+			}
 		}
 	}
 
@@ -414,6 +448,14 @@
 			.footer-link-social {
 				width: 15%;
 				margin: auto;
+				transition: all 0.3s ease 0s;
+				padding: 0.4em;
+				border-radius: 0.3em;
+			}
+
+			.footer-link-social:hover {
+				background-color: $footer-font;
+				color: $footer-back;
 			}
 		}
 

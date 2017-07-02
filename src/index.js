@@ -37,3 +37,7 @@ render(
 
 // For responsive styling, start working with more
 // breakpoints and just make changes as neccesary
+
+// Make sure transitions, transforms, etc aren't working
+// on screen sizes you don't want them to
+	// eg: don't scale up project thumbs on mobile
