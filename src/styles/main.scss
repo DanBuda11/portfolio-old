@@ -264,10 +264,13 @@
 		margin: 1em auto;
 		display: block;
 		border: 1px solid #000;
+		max-width: 300px;
 	}
 
 	.project-blurb {
 		padding-left: 1em;
+		max-width: 80%;
+		margin: 0 auto;
 	}
 
 	.project-link {
@@ -275,6 +278,29 @@
 		text-align: center;
 		text-decoration: none;
 		margin: 0.7em;
+		background-color: $project-link-back;
+		color: $project-link-font;
+		padding: 0.6em;
+		width: 35%;
+		margin: 0.5em auto 0;
+		border-radius: 0.3em;
+	}
+
+	.project-tech {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		max-width: 500px;
+		margin: 0 auto;
+
+		.project-tech-item {
+			background-color: $project-tech-back;
+			color: $project-tech-font;
+			padding: 0.6em;
+			border-radius: 0.3em;
+			width: 5em;
+			text-align: center;
+		}
 	}
 }
 

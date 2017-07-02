@@ -11,6 +11,12 @@ export default class Project extends Component {
 	}
 
 	render() {
+		const tech = this.state.project.tech.map((t, i) => {
+			return (
+				<p className="project-tech-item" key={i}>{t}</p>
+			);
+		});
+
 		return (
 			<div className="project-page">
 				<Link className="breadcrumb" to="/"><i className="fa fa-2x fa-long-arrow-left"></i></Link>
@@ -19,6 +25,9 @@ export default class Project extends Component {
 				<div className="project-blurb">{this.state.project.blurb}</div>
 				<a className="project-link" href={this.state.project.githubLink}>Check out the code in GitHub</a>
 				{(this.state.project.liveLink) ? <a className="project-link" href={this.state.project.liveLink}>Vist the live project</a> : ''}
+				<div className="project-tech">
+					{tech}
+				</div>
 			</div>
 		);
 	}

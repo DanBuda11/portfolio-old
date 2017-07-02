@@ -41,3 +41,6 @@ render(
 // Make sure transitions, transforms, etc aren't working
 // on screen sizes you don't want them to
 	// eg: don't scale up project thumbs on mobile
+
+// project thumb component doesn't need to be passed all
+// the data as props. Don't need githubLink for example.
