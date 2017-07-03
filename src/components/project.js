@@ -24,7 +24,7 @@ export default class Project extends Component {
 				<img className="project-image" src={require(`./../images/${this.state.project.image}`)} />
 				<div className="project-blurb">{this.state.project.blurb}</div>
 				<a className="project-link" href={this.state.project.githubLink}>Check out the code in GitHub</a>
-				{(this.state.project.liveLink) ? <a className="project-link" href={this.state.project.liveLink}>Vist the live project</a> : ''}
+				{(this.state.project.liveLink) ? <a className="project-link" href={this.state.project.liveLink}>Visit the live project</a> : ''}
 				<div className="project-tech">
 					{tech}
 				</div>

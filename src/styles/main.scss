@@ -247,10 +247,15 @@
 		background-color: $breadcrumb-back;
 		padding: 0.3em 0.7em 0.3em 0.5em;
 		border-radius: 0.4em;
+		transition: all 0.3s ease 0;
 
 		.fa-long-arrow-left {
 			vertical-align: middle;
 		}
+	}
+
+	.breadcrumb:hover {
+		background-color: $project-link-back;
 	}
 
 	.project-name {
@@ -284,6 +289,11 @@
 		width: 35%;
 		margin: 0.5em auto 0;
 		border-radius: 0.3em;
+		transition: all 0.3s ease 0;
+	}
+
+	.project-link:hover {
+		opacity: 0.5;
 	}
 
 	.project-tech {
@@ -486,13 +496,25 @@
 		}
 
 		.footer-contact {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 0 3em 0 0;
 
 			a {
+				margin: auto;
+				padding: 0.7em;
+				border-radius: 0.3em;
+				transition: all 0.3s ease 0;
+			}
 
+			a:hover {
+				background-color: $footer-font;
+				color: $footer-back;
 			}
 
 			.copyright {
-
+				margin: auto;
 			}
 		}
 	}
