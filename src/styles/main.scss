@@ -185,7 +185,6 @@
 			margin: 1em auto;
 			text-decoration: none;
 			display: block;
-			transition: all .2s ease-in-out;
 
 			.project-thumb-image-div {
 
@@ -224,17 +223,7 @@
 				}
 			}
 		}
-
-		.project-thumb:hover {
-			transform: scale(1.1);
-		}
-
-		.dummy-project {
-			height: 0;
-			border: none;
-		}
 	}
-	
 }
 
 .project-page {
@@ -470,6 +459,11 @@
 
 			.project-thumb {
 				width: 30%;
+				transition: all .2s ease-in-out;
+			}
+
+			.project-thumb:hover {
+				transform: scale(1.1);
 			}
 		}
 	}
