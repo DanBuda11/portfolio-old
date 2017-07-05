@@ -5,7 +5,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/real-estate-app',
 		liveLink: 'http://home-finder-lite.herokuapp.com/',
-		tech: ['React', 'Node', 'Backbone']
+		tech: ['React', 'NodeJS', 'Postgres', 'Backbone', 'Sass', 'ESLint', 'Filepicker', 'jQuery', 'Express', 'Passport', 'Bcrypt', 'Validator', 'Gulp']
 	},
 	{
 		name: 'Buda Fooda',
@@ -13,7 +13,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/recipes',
 		liveLink: 'http://recipes-danbuda.surge.sh/',
-		tech: ['React']
+		tech: ['React', 'Sass', 'Webpack']
 	},
 	{
 		name: 'Responsive React Navbar',
@@ -21,7 +21,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/collapsable-nav',
 		liveLink: 'http://reactnav-danbuda.surge.sh/',
-		tech: ['React']
+		tech: ['React', 'Sass']
 	},
 	{
 		name: 'Node Chat App',
@@ -29,7 +29,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/node-chat-app',
 		liveLink: 'https://glacial-taiga-27544.herokuapp.com/',
-		tech: ['React']
+		tech: ['NodeJS', 'socket.io', 'Express', 'Moment', 'Expect', 'Mocha']
 	},
 	{
 		name: 'React-Redux Webpack Framework',
@@ -37,7 +37,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/react-redux-webpack',
 		liveLink: '',
-		tech: ['React']
+		tech: ['Webpack', 'Sass']
 	},
 	{
 		name: 'danbuda.com',
@@ -45,7 +45,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/portfolio3',
 		liveLink: 'http://danbuda.com/',
-		tech: ['React']
+		tech: ['React', 'Sass', 'Webpack', 'React Router 4']
 	},
 	{
 		name: 'React Photo Album',
@@ -53,7 +53,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/react-photo-album',
 		liveLink: 'http://reactphotoalbum-danbuda.surge.sh/',
-		tech: ['React']
+		tech: ['React', 'Sass']
 	},
 	{
 		name: 'Star Wars API App',
@@ -61,7 +61,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/swapi',
 		liveLink: 'http://swapi-danbuda.surge.sh/',
-		tech: ['React']
+		tech: ['Webpack', 'Sass', 'ES7', 'Lodash', 'Axios']
 	}
 ];
 

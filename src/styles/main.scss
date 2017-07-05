@@ -169,6 +169,8 @@
 		.bio-blurb {
 			text-align: center;
 			line-height: 1.25em;
+			padding: 0 1em;
+			margin: 0;
 		}
 	}
 
@@ -185,11 +187,13 @@
 			margin: 1em auto;
 			text-decoration: none;
 			display: block;
+			border-radius: 1em;
 
 			.project-thumb-image-div {
 
 				img {
 					width: 100%;
+					border-radius: 1em 1em 0 0;
 				}
 			}
 
@@ -333,7 +337,7 @@
 
 		.copyright {
 			margin: 0;
-			color: $footer-font;
+			color: #FFF;
 		}
 	}
 }

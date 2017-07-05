@@ -10,25 +10,25 @@ export default class Portfolio extends Component {
 		}
 	}
 
-	checkCount(currentTotal, next) {
-		if(currentTotal % 9) {
-			currentTotal += 1;
-			this.checkCount(currentTotal, next);
-		} else {
-			next(currentTotal);
-		}
-	}
+	// checkCount(currentTotal, next) {
+	// 	if(currentTotal % 9) {
+	// 		currentTotal += 1;
+	// 		this.checkCount(currentTotal, next);
+	// 	} else {
+	// 		next(currentTotal);
+	// 	}
+	// }
 
-	addDummyElements(container) {
-		let count = container.length;
-		this.checkCount(count, function(finalCount) {
-			let dummyElement;
-			for (let i = 0; i < (finalCount - count); i++) {
-				container.push(<div key="dummy" className="dummy-project project-thumb"></div>);
-			}
-		});
-		return container;
-	}
+	// addDummyElements(container) {
+	// 	let count = container.length;
+	// 	this.checkCount(count, function(finalCount) {
+	// 		let dummyElement;
+	// 		for (let i = 0; i < (finalCount - count); i++) {
+	// 			container.push(<div key="dummy" className="dummy-project project-thumb"></div>);
+	// 		}
+	// 	});
+	// 	return container;
+	// }
 
 	render() {
 		const projects = this.state.projects.map((project, i) => {
@@ -57,7 +57,7 @@ export default class Portfolio extends Component {
 					<p className="bio-blurb">Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit.</p>
 				</div>
 				<div className="projects-grid">
-					{this.addDummyElements(projects)}
+					{projects}
 				</div>
 			</div>
 		);
