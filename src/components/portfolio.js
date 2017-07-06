@@ -10,26 +10,6 @@ export default class Portfolio extends Component {
 		}
 	}
 
-	// checkCount(currentTotal, next) {
-	// 	if(currentTotal % 9) {
-	// 		currentTotal += 1;
-	// 		this.checkCount(currentTotal, next);
-	// 	} else {
-	// 		next(currentTotal);
-	// 	}
-	// }
-
-	// addDummyElements(container) {
-	// 	let count = container.length;
-	// 	this.checkCount(count, function(finalCount) {
-	// 		let dummyElement;
-	// 		for (let i = 0; i < (finalCount - count); i++) {
-	// 			container.push(<div key="dummy" className="dummy-project project-thumb"></div>);
-	// 		}
-	// 	});
-	// 	return container;
-	// }
-
 	render() {
 		const projects = this.state.projects.map((project, i) => {
 			return (
@@ -38,9 +18,6 @@ export default class Portfolio extends Component {
 					id={i}
 					name={project.name}
 					image={project.image}
-					blurb={project.blurb}
-					githubLink={project.githubLink}
-					liveLink={project.liveLink}
 					tech={project.tech}
 				/>
 			);

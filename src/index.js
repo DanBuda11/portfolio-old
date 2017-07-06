@@ -12,9 +12,6 @@ render(
 );
 
 
-// Use Pablo to make images
-	// Test using both Twiiter-size and square images for all screen sizes,
-	// thumbnails and project page.
 	// Credit Pablo with link in README
 
 // Make README pretty extensive and don't wait until the end to start writing it
@@ -30,10 +27,6 @@ render(
 
 // Create testing and make tests, make sure to include in .gitignore
 
-// Need to fix function that sets last row of projects
-// the left. Not working in 2-column view
-	// But this is only going to work with a set # of
-	// projects. Need a different solution
 
 // For responsive styling, start working with more
 // breakpoints and just make changes as neccesary
@@ -42,5 +35,8 @@ render(
 // on screen sizes you don't want them to
 	// eg: don't scale up project thumbs on mobile
 
-// project thumb component doesn't need to be passed all
-// the data as props. Don't need githubLink for example.
+// Make sure page starts at top when go to another page.
+// Currently when clicking on a project thumb, the project page
+// doesn't start at the top.
+
+// Need to fix footer layout just as it turns from tablet to desktop
