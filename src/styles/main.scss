@@ -310,7 +310,38 @@
 	}
 }
 
+.resume {
 
+	h3 {
+
+	}
+
+	.resume-left {
+
+		.skills {
+
+		}
+
+		.experience {
+
+		}
+	}
+
+	.resume-right {
+
+		.education {
+
+		}
+
+		.achievements {
+
+		}
+
+		.interests {
+
+		}
+	}
+}
 
 .footer {
 	text-align: center;
@@ -337,11 +368,12 @@
 			margin-bottom: 1em;
 			color: $footer-font;
 		}
+	}
 
-		.copyright {
-			margin: 0;
+	.copyright {
+			margin-bottom: 1rem;
 			color: #FFF;
-		}
+			font-size: 0.8em;
 	}
 }
 
@@ -400,34 +432,60 @@
 	}
 
 	.footer {
-		display: flex;
-		flex-direction: row;
+		// display: flex;
+		// flex-direction: row;
 		padding: 1em 2em 0;
 
 		.social-links {
-			width: 35%;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			flex-wrap: wrap;
-			margin: 0 4em 0 2em;
-			padding-bottom: 0.5em;
+			float: left;
+			// width: 35%;
+			// display: flex;
+			// flex-direction: row;
+			// justify-content: space-between;
+			// flex-wrap: wrap;
+			// margin: 0 4em 0 2em;
+			// padding-bottom: 0.5em;
+			margin: 0;
 
 			.footer-link-social {
-				width: 27%;
-				margin-bottom: 0.5em;
+				// width: 27%;
+				// margin-bottom: 0.5em;
+				margin: 0 1em 0 0;
 			}
 		}
 		.footer-contact {
-			width: 53%;
-			margin-top: 0.5em;
+			// width: 53%;
+			// margin-top: 0.5em;
+			float: right;
+			margin: 0;
 
 			a {
 				
 			}
+		}
 
-			.copyright {
+		.copyright {
+			clear: both;
+		}
+	}
+}
 
+@media (min-width: 640px) {
+	.footer {
+
+		.social-links {
+			margin-bottom: 1em;
+
+			.footer-link-social {
+
+			}
+		}
+
+		.footer-contact {
+
+			a {
+				display: inline-block;
+				margin: 1em 0 0 2em;
 			}
 		}
 	}
@@ -477,19 +535,34 @@
 		}
 	}
 
+	.resume {
+		display: flex;
+		flex-direction: row;
+
+		.resume-left {
+			width: 50%;
+		}
+
+		.resume-right {
+
+		}
+	}
+
 	.footer {
 		padding: 1em 2em;
 
 		.social-links {
-			width: 65%;
-			padding-bottom: 0;
+			// width: 65%;
+			// padding-bottom: 0;
 
 			.footer-link-social {
-				width: 15%;
-				margin: auto;
+				// width: 15%;
+				// margin: auto;
 				transition: all 0.3s ease 0s;
 				padding: 0.4em;
 				border-radius: 0.3em;
+				margin: 0 1.5em 0 0;
+				display: inline-block;
 			}
 
 			.footer-link-social:hover {
@@ -502,23 +575,24 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: space-around;
-			margin: 0 3em 0 0;
+			margin: 0.7em 0 0 0;
 
 			a {
 				margin: auto;
 				padding: 0.7em;
 				border-radius: 0.3em;
-				transition: all 0.3s ease 0;
+				transition: all 0.3s ease 0s;
+				margin-left: 2em;
 			}
 
 			a:hover {
 				background-color: $footer-font;
 				color: $footer-back;
 			}
+		}
 
-			.copyright {
+		.copyright {
 				margin: auto;
-			}
 		}
 	}
 }

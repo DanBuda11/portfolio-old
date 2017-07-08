@@ -12,8 +12,6 @@ render(
 );
 
 
-	// Credit Pablo with link in README
-
 // Make README pretty extensive and don't wait until the end to start writing it
 
 // Before final push to GitHub and final deploy, clean up code really well,
@@ -25,20 +23,17 @@ render(
 
 // Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf in README
 
-// Create testing and make tests, make sure to include in .gitignore
-
-
 // For responsive styling, start working with more
 // breakpoints and just make changes as neccesary
 
 // Make sure transitions, transforms, etc aren't working
 // on screen sizes you don't want them to
 	// eg: don't scale up project thumbs on mobile
+	// Need to remove this from tablet size, possible more
 
 // Make sure page starts at top when go to another page.
 // Currently when clicking on a project thumb, the project page
 // doesn't start at the top.
 
 // Need to fix footer layout just as it turns from tablet to desktop
-
-// Need to hide dropdown menu when navigating to another page.
+	// Mostly done but probably needs a final tweak

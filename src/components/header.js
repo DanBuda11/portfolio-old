@@ -20,7 +20,7 @@ export default class Header extends Component {
 			<div className="nav">
 				<img className="nav-img" src="/src/images/dan.png" />
 				<i className="fa fa-bars fa-3x menu-mobile" onClick={() => this.menuToggle('.nav-mobile')}></i>
-				<div className="nav-mobile">
+				<div className="nav-mobile" onClick={() => this.menuToggle('.nav-mobile')}>
 					<div className="nav-mobile-1">
 						<Link to="/">Portfolio</Link>
 						<Link to="/about">About</Link>
@@ -43,7 +43,7 @@ export default class Header extends Component {
 						<a href="mailto:danbuda@gmail.com">Email</a>
 					</div>
 					<i className="fa fa-bars fa-3x menu-tablet" onClick={() => this.menuToggle('.nav-tablet-dropdown')}></i>
-					<div className="nav-tablet-dropdown">
+					<div className="nav-tablet-dropdown" onClick={() => this.menuToggle('.nav-tablet-dropdown')}>
 						<div className="nav-tablet-2">
 							<Link to="/">Portfolio</Link>
 							<Link to="/about">About</Link>
