@@ -24,7 +24,7 @@ export default class Header extends Component {
 					<div className="nav-mobile-1">
 						<Link to="/">Portfolio</Link>
 						<Link to="/about">About</Link>
-						<a href="">Resume</a>
+						<Link to="/resume">Resume</Link>
 					</div>
 					<div className="nav-mobile-2">
 						<a href="tel:+15126631673">Call</a>
@@ -47,7 +47,7 @@ export default class Header extends Component {
 						<div className="nav-tablet-2">
 							<Link to="/">Portfolio</Link>
 							<Link to="/about">About</Link>
-							<a href="">Resume</a>
+							<Link to="/resume">Resume</Link>
 						</div>
 						<div className="nav-tablet-3">
 							<a href={twitter} target="_blank"><i className="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
@@ -61,7 +61,7 @@ export default class Header extends Component {
 					<div className="nav-desktop-1">
 						<Link to="/">Portfolio</Link>
 						<Link to="/about">About</Link>
-						<a href="">Resume</a>
+						<Link to="/resume">Resume</Link>
 					</div>
 					<div className="nav-desktop-2">
 						<a href="tel:+15126631673">Call</a>

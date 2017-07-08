@@ -40,3 +40,5 @@ render(
 // doesn't start at the top.
 
 // Need to fix footer layout just as it turns from tablet to desktop
+
+// Need to hide dropdown menu when navigating to another page.

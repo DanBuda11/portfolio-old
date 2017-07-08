@@ -216,6 +216,9 @@
 
 			.project-thumb-name-div {
 
+				// Make this wider to try and fit all project
+				// names on 1 line regardless of length of
+				// project name
 				p {
 					text-align: center;
 					background-color: $thumb-title-back;
