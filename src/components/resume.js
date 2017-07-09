@@ -19,8 +19,11 @@ export default class Resume extends Component {
 					<h3>Experience</h3>
 					<ul className="experience">
 						<li>
-							<p>Realtor</p>
-							<p>Joe Stewart Realtors</p>
+							<p className="exp-title">Realtor</p>
+							<p className="exp-company">Joe Stewart Realtors</p>
+							<p className="exp-location">Austin, TX</p>
+							<p className="exp-date">2015-Present</p>
+							<p className="exp-blurb">I sell houses like a mother fucking baller.</p>
 						</li>
 						<li>
 							<p>Chief of Staff</p>
@@ -31,7 +34,9 @@ export default class Resume extends Component {
 				<div className="resume-right">
 					<h3>Education</h3>
 					<div className="education">
-						<p>University of Michigan</p>
+						<p className="ed-school">University of Michigan</p>
+						<p className="ed-location">Ann Arbor, MI</p>
+						<p className="ed-date">1997-2001</p>
 					</div>
 					<h3>Achievements</h3>
 					<ul className="achievements">
@@ -48,22 +53,6 @@ export default class Resume extends Component {
 		);
 	}
 }
-
-// How to divide up the page?
-
-// Only make an expandable section for mobile if it's a long secton?
-	// like basically just experience
-
-// For desktop size, make 2 columns with education, achievements,
-// interests in the right column
-
-// Need:
-
-	// work experience
-	// coding skills
-	// achievements/affiliations
-	// interests
-	// education
 
 // should I make the mobile version expandable?
 	// probably

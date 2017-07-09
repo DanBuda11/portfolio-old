@@ -10,6 +10,10 @@ export default class Project extends Component {
 		};
 	}
 
+	componentDidMount() {
+		document.body.scrollTop = 0;
+	}
+
 	render() {
 		const tech = this.state.project.tech.map((t, i) => {
 			return (
