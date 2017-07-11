@@ -311,7 +311,8 @@
 }
 
 .resume {
-
+	padding-left: 1em;
+	
 	h3 {
 
 	}
@@ -319,6 +320,8 @@
 	.resume-left {
 
 		.skills {
+			list-style: none;
+			padding: 0;
 
 			li {
 
@@ -326,6 +329,8 @@
 		}
 
 		.experience {
+			list-style: none;
+			padding: 0;
 
 			li {
 
@@ -370,6 +375,8 @@
 		}
 
 		.achievements {
+			list-style: none;
+			padding: 0;
 
 			li {
 
@@ -377,6 +384,8 @@
 		}
 
 		.interests {
+			list-style: none;
+			padding: 0;	
 
 			li {
 				
