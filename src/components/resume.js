@@ -12,9 +12,19 @@ export default class Resume extends Component {
 					<h3>Coding Skills</h3>
 					<ul className="skills">
 						<li>React</li>
-						<li>NodeJS</li>
-						<li>Backbone</li>
+						<li>Node.js</li>
+						<li>Backbone.js</li>
 						<li>Webpack</li>
+						<li>JavaScript</li>
+						<li>CSS/Sass</li>
+						<li>HTML</li>
+						<li>Git</li>
+						<li>jQuery</li>
+						<li>Mocha</li>
+						<li>PostgreSQL</li>
+						<li>MongoDB</li>
+						<li>Redux</li>
+						<li>Express</li>
 					</ul>
 					<h3>Experience</h3>
 					<ul className="experience">
@@ -26,8 +36,24 @@ export default class Resume extends Component {
 							<p className="exp-blurb">I sell houses like a mother fucking baller.</p>
 						</li>
 						<li>
+							<p>Candidate</p>
+							<p>Austin City Council District 5</p>
+						</li>
+						<li>
 							<p>Chief of Staff</p>
-							<p>Senator Wendy Davis</p>
+							<p>Office of Senator Wendy Davis</p>
+						</li>
+							<p>Committee Director</p>
+							<p>Office of Senator Mario Gallegos</p>
+						<li>
+							<p>Financial Advisor</p>
+							<p>Prudential Financial</p>
+						</li>
+						<li>
+							<p>Marketing & Web Design Intern</p>
+							<p>Shanghai GoFly Group</p>
+						</li>
+						<li>
 						</li>
 					</ul>
 				</div>
