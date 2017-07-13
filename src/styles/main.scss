@@ -182,12 +182,14 @@
 		margin: 0 auto;
 
 		.project-thumb {
-			border: 1px solid #000;
+			// border: 1px solid #000;
 			width: 90%;
 			margin: 1em auto;
 			text-decoration: none;
 			display: block;
 			border-radius: 1em;
+			background-color: $thumb-tech-back;
+			padding-bottom: 0.1em;
 
 			.project-thumb-image-div {
 
@@ -201,15 +203,15 @@
 				display: flex;
 				flex-direction: row;
 				justify-content: space-around;
-				margin-top: 1em;
+				margin-top: 0.7em;
 
 				.project-thumb-tech-item {
-					background-color: $thumb-tech-back;
+					// background-color: $thumb-title-back;
 					color: $thumb-tech-font;
-					padding: 0.5em 0.7em;
-					border-radius: 0.4em;
-					width: 21%;
-					text-align: center;
+					// padding: 0.5em 0.7em;
+					// border-radius: 0.4em;
+					// width: 19%;
+					// text-align: center;
 					font-size: 0.8em;
 				}
 			}
@@ -264,14 +266,15 @@
 		width: 90%;
 		margin: 1em auto;
 		display: block;
-		border: 1px solid #000;
+		// border: 1px solid #000;
 		max-width: 300px;
+		border-radius: 1em;
 	}
 
 	.project-blurb {
 		padding-left: 1em;
 		max-width: 80%;
-		margin: 0 auto;
+		margin: 0 auto 1em;
 	}
 
 	.project-link {
@@ -282,7 +285,7 @@
 		background-color: $project-link-back;
 		color: $project-link-font;
 		padding: 0.6em;
-		width: 35%;
+		width: 80%;
 		margin: 0.5em auto 0;
 		border-radius: 0.3em;
 		transition: all 0.3s ease 0;
@@ -296,16 +299,18 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+		flex-wrap: wrap;
 		max-width: 500px;
-		margin: 0 auto;
+		margin: 1em auto;
 
 		.project-tech-item {
 			background-color: $project-tech-back;
 			color: $project-tech-font;
 			padding: 0.6em;
 			border-radius: 0.3em;
-			width: 5em;
+			width: 4.5em;
 			text-align: center;
+			margin: 0.3em 0.2em;	
 		}
 	}
 }

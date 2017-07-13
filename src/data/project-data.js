@@ -16,7 +16,7 @@ export default [
 		tech: ['React', 'Sass', 'Webpack']
 	},
 	{
-		name: 'Responsive React Navbar',
+		name: 'React Navbar',
 		image: 'react-nav.png',
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/collapsable-nav',
@@ -32,7 +32,7 @@ export default [
 		tech: ['NodeJS', 'socket.io', 'Express', 'Moment', 'Expect', 'Mocha']
 	},
 	{
-		name: 'React-Redux Webpack Framework',
+		name: 'Webpack Framework',
 		image: 'no-image.png',
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/react-redux-webpack',

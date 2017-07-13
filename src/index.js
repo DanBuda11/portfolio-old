@@ -37,3 +37,12 @@ render(
 
 // Need to fix footer layout just as it turns from tablet to desktop
 	// Mostly done but probably needs a final tweak
+
+// Need to fix project-thumb project title to not go to
+// multiple lines at different breakpoints - makes it look
+// kinda stupid
+
+// Need new picture for React Navbar that removes the
+// whitespace. And an image for danbuda.com once it's ready
+// to deploy. Figure out an image for the Webpack framework
+	// probably just a screenshot of the webpack.config code

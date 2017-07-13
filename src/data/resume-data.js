@@ -1,3 +1,5 @@
+// Make experience blurbs as relevant to coding as possible
+
 const skills = [
 	'React',
 	'Node.js',

@@ -7,6 +7,15 @@ import { skills, experience, achievements, interests } from '../data/resume-data
 	// Try to do it within the map function for skills
 	// and not have to use multiple maps
 
+	// front end
+	// back end
+	// database
+	// ajax
+	// design
+	// project bundling
+	// other libraries can go in their place (mongoose for back end,
+	// axios for ?) or maybe don't go this deep
+
 export default class Resume extends Component {
 	constructor(props) {
 		super(props);
