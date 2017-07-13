@@ -73,6 +73,8 @@ export default class Resume extends Component {
 					<ul className="interests">
 						<li>Cooking</li>
 						<li>Scuba Diving</li>
+						<li>Guitar, piano</li>
+						<li>Soccer, tennis, golf</li>
 					</ul>
 				</div>
 			</div>
