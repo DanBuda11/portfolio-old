@@ -314,7 +314,7 @@
 	padding-left: 1em;
 	
 	h3 {
-
+		text-align: center;
 	}
 
 	.resume-left {
@@ -323,8 +323,15 @@
 			list-style: none;
 			padding: 0;
 
-			li {
+			display: grid;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-content: flex-start;
+			grid-template-columns: repeat(auto-fill, 50%);
 
+			li {
+				text-align: center;
+				line-height: 1.25em;
 			}
 		}
 
@@ -333,6 +340,7 @@
 			padding: 0;
 
 			li {
+				margin-bottom: 1em;
 
 				.exp-title {
 					margin: 0;
@@ -340,18 +348,19 @@
 
 				.exp-company {
 					margin: 0;
+					font-style: italic;
+					font-size: 0.9em;
 				}
 
-				.exp-location {
+				.exp-loc-date {
 					margin: 0;
-				}
-
-				.exp-date {
-					margin: 0;
+					font-style: italic;
+					font-size: 0.9em;
 				}
 
 				.exp-blurb {
 					margin: 0;
+					font-size: 0.9em;
 				}
 			}
 		}
@@ -365,12 +374,10 @@
 				margin: 0;
 			}
 
-			.ed-location {
+			.ed-loc-date {
 				margin: 0;
-			}
-
-			.ed-date {
-				margin: 0;
+				font-style: italic;
+				font-size: 0.9em;
 			}
 		}
 

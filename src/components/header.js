@@ -18,7 +18,7 @@ export default class Header extends Component {
 		const twitter = 'https://twitter.com/danielbuda';
 		return (
 			<div className="nav">
-				<img className="nav-img" src="/src/images/dan.png" />
+				<Link to="/"><img className="nav-img" src="/src/images/dan.png" /></Link>
 				<i className="fa fa-bars fa-3x menu-mobile" onClick={() => this.menuToggle('.nav-mobile')}></i>
 				<div className="nav-mobile" onClick={() => this.menuToggle('.nav-mobile')}>
 					<div className="nav-mobile-1">
