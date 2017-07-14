@@ -46,3 +46,5 @@ render(
 // whitespace. And an image for danbuda.com once it's ready
 // to deploy. Figure out an image for the Webpack framework
 	// probably just a screenshot of the webpack.config code
+
+// Dropdown menu not closing when you navigate to a different page
