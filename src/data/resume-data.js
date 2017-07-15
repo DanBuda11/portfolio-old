@@ -1,13 +1,14 @@
 // Make experience blurbs as relevant to coding as possible
 
 const skills = [
+	'JavaScript',
+	'HTML',
+	'CSS',
+	'Sass',
 	'React',
 	'Node.js',
 	'Backbone.js',
 	'Webpack',
-	'JavaScript',
-	'CSS/Sass',
-	'HTML',
 	'Git',
 	'jQuery',
 	'Mocha',
@@ -16,7 +17,7 @@ const skills = [
 	'MongoDB',
 	'Redux',
 	'Express',
-	'Axios'
+	'Photoshop'
 ];
 
 const experience = [
@@ -65,15 +66,18 @@ const experience = [
 ];
 
 const achievements = [
-	'Pooped off the Sears Tower',
-	'Cured cancer then forgot about it'
+	'Private real estate investor',
+	'Texas Democracy Foundation, Next Generation Leaders 2012',
+	'City of Austin Impact Fee Advisory Committee Member, 2010-2011',
+	'Scuba certified'
 ];
 
 const interests = [
 	'Cooking',
 	'Scuba diving',
 	'Guitar, piano',
-	'Soccer, tennis, golf'
+	'Soccer, tennis, golf',
+	'Travel'
 ];
 
 export { skills, experience, achievements, interests };
