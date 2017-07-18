@@ -10,6 +10,10 @@ export default class Portfolio extends Component {
 		}
 	}
 
+	componentDidMount() {
+		document.body.scrollTop = 0;
+	}
+	
 	render() {
 		const projects = this.state.projects.map((project, i) => {
 			return (

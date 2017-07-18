@@ -25,6 +25,10 @@ export default class Resume extends Component {
 		}
 	}
 
+	componentDidMount() {
+		document.body.scrollTop = 0;
+	}
+	
 	render() {
 		const skills = this.state.skills.map((skill, i) => {
 			return <li key={i}>{skill}</li>;

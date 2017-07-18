@@ -65,11 +65,4 @@ const experience = [
 	}
 ];
 
-const achievements = [
-	'Private real estate investor',
-	'Texas Democracy Foundation, Next Generation Leaders 2012',
-	'City of Austin Impact Fee Advisory Committee Member, 2010-2011',
-	'Scuba certified'
-];
-
 export { skills, experience };

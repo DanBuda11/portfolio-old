@@ -11,7 +11,6 @@ render(
 	, document.getElementById('entry')
 );
 
-
 // Make README pretty extensive and don't wait until the end to start writing it
 
 // Before final push to GitHub and final deploy, clean up code really well,
@@ -31,9 +30,9 @@ render(
 	// eg: don't scale up project thumbs on mobile
 	// Need to remove this from tablet size, possible more
 
-// Make sure page starts at top when go to another page.
-// Currently when clicking on a project thumb, the project page
-// doesn't start at the top.
+// Make sure all pages start at the top when returning
+// from another page or going to one
+	// I think this is all working now.
 
 // Need to fix footer layout just as it turns from tablet to desktop
 	// Mostly done but probably needs a final tweak
@@ -46,7 +45,11 @@ render(
 // whitespace. And an image for danbuda.com once it's ready
 // to deploy. Figure out an image for the Webpack framework
 	// probably just a screenshot of the webpack.config code
+// Add favicon
 
 // Dropdown menu not closing when you navigate to a different page
 
 // Need to put back buttons on resume, about, etc pages
+
+// Is there any way to use browser history? Go back to
+// Router v2?
