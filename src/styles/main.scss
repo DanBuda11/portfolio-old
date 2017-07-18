@@ -328,90 +328,84 @@
 .resume {
 	padding-left: 1em;
 	
-	h3 {
+	.resume-title {
 		text-align: center;
 	}
 
-	.resume-left {
+	.skills {
+		list-style: none;
+		padding: 0;
 
-		.skills {
-			list-style: none;
-			padding: 0;
+		display: grid;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-content: flex-start;
+		grid-template-columns: repeat(auto-fill, 50%);
 
-			display: grid;
-			flex-flow: row wrap;
-			justify-content: space-between;
-			align-content: flex-start;
-			grid-template-columns: repeat(auto-fill, 50%);
-
-			li {
-				text-align: center;
-				line-height: 1.25em;
-			}
-		}
-
-		.experience {
-			list-style: none;
-			padding: 0;
-
-			li {
-				margin-bottom: 1em;
-
-				.exp-title {
-					margin: 0;
-				}
-
-				.exp-company {
-					margin: 0;
-					font-style: italic;
-					font-size: 0.9em;
-				}
-
-				.exp-loc-date {
-					margin: 0;
-					font-style: italic;
-					font-size: 0.9em;
-				}
-
-				.exp-blurb {
-					margin: 0;
-					font-size: 0.9em;
-				}
-			}
+		li {
+			text-align: center;
+			line-height: 1.25em;
 		}
 	}
 
-	.resume-right {
+	.experience {
+		list-style: none;
+		padding: 0;
 
-		.education {
+		li {
+			margin-bottom: 1em;
 
-			.ed-school {
+			.exp-title {
 				margin: 0;
 			}
 
-			.ed-loc-date {
+			.exp-company {
 				margin: 0;
 				font-style: italic;
 				font-size: 0.9em;
 			}
-		}
 
-		.achievements {
-			list-style: none;
-			padding: 0;
+			.exp-loc-date {
+				margin: 0;
+				font-style: italic;
+				font-size: 0.9em;
+			}
 
-			li {
-
+			.exp-blurb {
+				margin: 0;
+				font-size: 0.9em;
 			}
 		}
+	}
 
-		.interests {
-			list-style: none;
-			padding: 0;	
+	.education {
 
-			li {
-				
-			}
+		.ed-school {
+			margin: 0;
+		}
+
+		.ed-loc-date {
+			margin: 0;
+			font-style: italic;
+			font-size: 0.9em;
+		}
+	}
+
+	.achievements {
+		list-style: none;
+		padding: 0;
+
+		li {
+
+		}
+	}
+
+	.interests {
+		list-style: none;
+		padding: 0;	
+
+		li {
+			
 		}
 	}
 }

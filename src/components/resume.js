@@ -53,31 +53,30 @@ export default class Resume extends Component {
 
 		return (
 			<div className="resume">
-				<div className="resume-left">
-					<h3>Coding Skills</h3>
+				
+					<h3 className="resume-title">Coding Skills</h3>
 					<ul className="skills">
 						{skills}
 					</ul>
-					<h3>Experience</h3>
+					<h3 className="resume-title">Experience</h3>
 					<ul className="experience">
 						{experience}
 					</ul>
-				</div>
-				<div className="resume-right">
-					<h3>Education</h3>
+				
+					<h3 className="resume-title">Education</h3>
 					<div className="education">
 						<p className="ed-school">University of Michigan</p>
 						<p className="ed-loc-date">Ann Arbor, MI &middot; 1997-2001</p>
 					</div>
-					<h3>Achievements</h3>
+					<h3 className="resume-title">Achievements</h3>
 					<ul className="achievements">
 						{achievements}
 					</ul>
-					<h3>Interests</h3>
+					<h3 className="resume-title">Interests</h3>
 					<ul className="interests">
 						{interests}
 					</ul>
-				</div>
+				
 			</div>
 		);
 	}
