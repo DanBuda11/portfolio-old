@@ -72,12 +72,4 @@ const achievements = [
 	'Scuba certified'
 ];
 
-const interests = [
-	'Cooking',
-	'Scuba diving',
-	'Guitar, piano',
-	'Soccer, tennis, golf',
-	'Travel'
-];
-
-export { skills, experience, achievements, interests };
+export { skills, experience };

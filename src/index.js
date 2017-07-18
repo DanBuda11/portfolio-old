@@ -48,3 +48,5 @@ render(
 	// probably just a screenshot of the webpack.config code
 
 // Dropdown menu not closing when you navigate to a different page
+
+// Need to put back buttons on resume, about, etc pages

@@ -542,6 +542,76 @@
 }
 
 @media (min-width: 640px) {
+	.resume {
+		overflow: hidden;
+		padding: 2em;
+		max-width: 650px;
+		margin: 0 auto;
+
+		.resume-title {
+			float: left;
+			clear: both;
+			margin: 0 0 2em 0;
+			text-align: left;
+			width: 40%;
+		}
+
+		.skills, .experience, .education, .achievements, .interests {
+			float: right;
+			margin: 0 0 2em 0;
+			width: 60%;
+		}
+
+		.skills {
+
+			li {
+
+			}
+		}
+
+		.experience {
+
+			li {
+
+				.exp-title {
+
+				}
+
+				.exp-company {
+
+				}
+
+				.exp-loc-date {
+
+				}
+
+				.exp-blurb {
+
+				}
+			}
+		}
+
+		.education {
+
+			p {
+
+			}
+		}
+
+		.achievements {
+
+			li {
+
+			}
+		}
+
+		.interests {
+			li {
+
+			}
+		}
+	}
+
 	.footer {
 
 		.social-links {
@@ -606,18 +676,18 @@
 		}
 	}
 
-	.resume {
-		display: flex;
-		flex-direction: row;
+	// .resume {
+	// 	display: flex;
+	// 	flex-direction: row;
 
-		.resume-left {
-			width: 50%;
-		}
+	// 	.resume-left {
+	// 		width: 50%;
+	// 	}
 
-		.resume-right {
+	// 	.resume-right {
 
-		}
-	}
+	// 	}
+	// }
 
 	.footer {
 		padding: 1em 2em;

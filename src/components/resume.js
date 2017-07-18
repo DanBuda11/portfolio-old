@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { skills, experience, achievements, interests } from '../data/resume-data';
+import { skills, experience } from '../data/resume-data';
 
 // Break coding skills into front, back, database,
 // testing, other or something like that
@@ -21,9 +21,7 @@ export default class Resume extends Component {
 		super(props);
 		this.state = {
 			skills,
-			experience,
-			achievements,
-			interests
+			experience
 		}
 	}
 
@@ -41,14 +39,6 @@ export default class Resume extends Component {
 					<p className="exp-blurb">{job.blurb}</p>
 				</li>
 			);
-		});
-
-		const achievements = this.state.achievements.map((achievement, i) => {
-			return <li key={i}>{achievement}</li>;
-		});
-
-		const interests = this.state.interests.map((interest, i) => {
-			return <li key={i}>{interest}</li>;
 		});
 
 		return (
@@ -69,13 +59,9 @@ export default class Resume extends Component {
 						<p className="ed-loc-date">Ann Arbor, MI &middot; 1997-2001</p>
 					</div>
 					<h3 className="resume-title">Achievements</h3>
-					<ul className="achievements">
-						{achievements}
-					</ul>
+					<p className="achievements">Private real estate investor, Texas Democracy Foundation Next Generation Leaders 2012, City of Austin Impact Fee Committee Member 2010-2011, Scuba certified</p>
 					<h3 className="resume-title">Interests</h3>
-					<ul className="interests">
-						{interests}
-					</ul>
+					<p className="interests">Cooking, scuba diving, guitar, piano, soccer, tennis, golf, travel</p>
 				
 			</div>
 		);
