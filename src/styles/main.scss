@@ -563,9 +563,10 @@
 		}
 
 		.skills {
+			grid-template-columns: 200px 1fr;
 
 			li {
-
+				text-align: left;
 			}
 		}
 
@@ -610,10 +611,15 @@
 
 			}
 		}
+
+		.last {
+			margin: 0;
+		}
 	}
 
 	.footer {
-
+		margin: 0;
+		
 		.social-links {
 			margin-bottom: 1em;
 
