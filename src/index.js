@@ -45,3 +45,10 @@ render(
 
 	// Dropdown not closing when navigating pages if it was open when
 		// clicked to navigate
+		// I THINK THIS IS FIXED NOW
+
+	// Problems when manually typing in urls - can't find stuff
+	// Also can't load anything other than the home page on browser
+	// page refresh
+		// I THINK THIS IS FIXED NOW - UPDATED WEBPACK.CONFIG.JS
+		// Even when the page reloads after saving changes to the code

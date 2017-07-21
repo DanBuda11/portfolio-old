@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default class Header extends Component {
 	menuToggle(menu) {
 		let el = document.querySelector(menu);
+		
 		if (el.style.display === 'block') {
 			el.style.display = 'none';
 		} else {

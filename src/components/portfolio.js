@@ -12,6 +12,12 @@ export default class Portfolio extends Component {
 
 	componentDidMount() {
 		document.body.scrollTop = 0;
+		
+		let mobile = document.querySelector('.nav-mobile');
+		let tablet = document.querySelector('.nav-tablet-dropdown');
+		
+		mobile.style.display = 'none';
+		tablet.style.display = 'none';
 	}
 	
 	render() {

@@ -20,7 +20,7 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'build'),
-		publicPath: 'http://localhost:8080/',
+		publicPath: '/',
 		filename: '[name].[chunkhash].js'
 	},
 	module: {
@@ -55,6 +55,9 @@ module.exports = {
 				]
 			}
 		]
+	},
+	devServer: {
+		historyApiFallback: true
 	},
 	plugins: [
 		new webpack.optimize.CommonsChunkPlugin({
