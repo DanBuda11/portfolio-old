@@ -20,6 +20,7 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'build'),
+		publicPath: 'http://localhost:8080/',
 		filename: '[name].[chunkhash].js'
 	},
 	module: {

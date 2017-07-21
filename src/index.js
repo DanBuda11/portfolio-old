@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './app';
 
@@ -11,45 +11,37 @@ render(
 	, document.getElementById('entry')
 );
 
-// Make README pretty extensive and don't wait until the end to start writing it
+// Notes
 
-// Before final push to GitHub and final deploy, clean up code really well,
-// create as many Sass variables and mixins as possible, clean up Sass to make it
-// as small as possible
+	// Make README extensive
+		// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf...
 
-// Make sure to test CSS breakpoints on all devices, including different computers
-// and Susie's phone
+	// Before final push to GitHub & deploy, clean up code really well:
+		// Create additional mixins & Sass variables if warranted
+		// Clean up SCSS completely
+			// Remove stuff from media breakpoints and put inside selectors?
+			// Break SCSS into multiple files and import?
+		// Test CSS breakpoints on all devices (make a Surge):
+			// my phone, iPad, laptop, PC
+			// Susie's phone
 
-// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf in README
+	// For final styling tweaks:
+		// Look at every page at every breakpoint and just add media queries
+			// wherever I need to to fix any minor bugs
+		// Go thru each page, including header/footer and see if anything
+			// needs to look better
+		// Remove transitions/transforms for mobile/tablet screen sizes
 
-// For responsive styling, start working with more
-// breakpoints and just make changes as neccesary
+	// Create and add all content wherever it's needed
+		// Home page bio, about page, project blurbs, all resume stuff
 
-// Make sure transitions, transforms, etc aren't working
-// on screen sizes you don't want them to
-	// eg: don't scale up project thumbs on mobile
-	// Need to remove this from tablet size, possible more
+	// New image for React Navbar that removes the whitespace
+	// New image for danbuda.com project once it's ready to deploy
+	// Image for Webpack Framework project (code snapshot?)
+	// Favicon
 
-// Make sure all pages start at the top when returning
-// from another page or going to one
-	// I think this is all working now.
+	// Add breadcrumbs/back buttons to all pages and redo styling
+		// (it doesn't look very good)
 
-// Need to fix footer layout just as it turns from tablet to desktop
-	// Mostly done but probably needs a final tweak
-
-// Need to fix project-thumb project title to not go to
-// multiple lines at different breakpoints - makes it look
-// kinda stupid
-
-// Need new picture for React Navbar that removes the
-// whitespace. And an image for danbuda.com once it's ready
-// to deploy. Figure out an image for the Webpack framework
-	// probably just a screenshot of the webpack.config code
-// Add favicon
-
-// Dropdown menu not closing when you navigate to a different page
-
-// Need to put back buttons on resume, about, etc pages
-
-// Is there any way to use browser history? Go back to
-// Router v2?
+	// Dropdown not closing when navigating pages if it was open when
+		// clicked to navigate
