@@ -21,6 +21,8 @@ render(
 		// Clean up SCSS completely
 			// Remove stuff from media breakpoints and put inside selectors?
 			// Break SCSS into multiple files and import?
+			// Remove any CSS that I don't think actually does anything
+			// (test it all in the browser too)
 		// Test CSS breakpoints on all devices (make a Surge):
 			// my phone, iPad, laptop, PC
 			// Susie's phone
@@ -50,5 +52,5 @@ render(
 	// Problems when manually typing in urls - can't find stuff
 	// Also can't load anything other than the home page on browser
 	// page refresh
-		// I THINK THIS IS FIXED NOW - UPDATED WEBPACK.CONFIG.JS
 		// Even when the page reloads after saving changes to the code
+			// I THINK THIS IS FIXED NOW - UPDATED WEBPACK.CONFIG.JS
