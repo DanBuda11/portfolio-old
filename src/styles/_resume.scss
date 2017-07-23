@@ -1,113 +1,124 @@
-.resume {
-	padding-left: 1em;
+.resume-container {
 	
-	@media (min-width: 640px) {
-		overflow: hidden;
-		padding: 2em;
-		max-width: 650px;
-		margin: 0 auto;
-	}
+	.breadcrumb {
+		@include breadcrumb();
 
-	.resume-title {
-		text-align: center;
-
-		@media (min-width: 640px) {
-			float: left;
-			clear: both;
-			margin: 0 0 2em 0;
-			text-align: left;
-			width: 40%;
+		.fa-long-arrow-left {
+			vertical-align: middle;
 		}
 	}
 
-	.skills, .experience, .education, .achievements, .interests {
+	.resume {
+		padding-left: 1em;
+		
 		@media (min-width: 640px) {
-			float: right;
-			margin: 0 0 2em 0;
-			width: 60%;
-		}
-	}
-
-	.skills {
-		list-style: none;
-		padding: 0;
-
-		display: grid;
-		flex-flow: row wrap;
-		justify-content: space-between;
-		align-content: flex-start;
-		grid-template-columns: repeat(auto-fill, 50%);
-
-		@media (min-width: 640px) {
-			grid-template-columns: 200px 1fr;
+			overflow: hidden;
+			padding: 2em;
+			max-width: 650px;
+			margin: 0 auto;
 		}
 
-		li {
+		.resume-title {
 			text-align: center;
-			line-height: 1.25em;
 
 			@media (min-width: 640px) {
+				float: left;
+				clear: both;
+				margin: 0 0 2em 0;
 				text-align: left;
+				width: 40%;
 			}
 		}
-	}
 
-	.experience {
-		list-style: none;
-		padding: 0;
+		.skills, .experience, .education, .achievements, .interests {
+			@media (min-width: 640px) {
+				float: right;
+				margin: 0 0 2em 0;
+				width: 60%;
+			}
+		}
 
-		li {
-			margin-bottom: 1em;
+		.skills {
+			list-style: none;
+			padding: 0;
 
-			.exp-title {
+			display: grid;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-content: flex-start;
+			grid-template-columns: repeat(auto-fill, 50%);
+
+			@media (min-width: 640px) {
+				grid-template-columns: 200px 1fr;
+			}
+
+			li {
+				text-align: center;
+				line-height: 1.25em;
+
+				@media (min-width: 640px) {
+					text-align: left;
+				}
+			}
+		}
+
+		.experience {
+			list-style: none;
+			padding: 0;
+
+			li {
+				margin-bottom: 1em;
+
+				.exp-title {
+					margin: 0;
+				}
+
+				.exp-company {
+					margin: 0;
+					font-style: italic;
+					font-size: 0.9em;
+				}
+
+				.exp-loc-date {
+					margin: 0;
+					font-style: italic;
+					font-size: 0.9em;
+				}
+
+				.exp-blurb {
+					margin: 0;
+					font-size: 0.9em;
+				}
+			}
+		}
+
+		.education {
+
+			.ed-school {
 				margin: 0;
 			}
 
-			.exp-company {
+			.ed-loc-date {
 				margin: 0;
 				font-style: italic;
 				font-size: 0.9em;
 			}
+		}
 
-			.exp-loc-date {
+		.achievements {
+			list-style: none;
+			padding: 0;
+		}
+
+		.interests {
+			list-style: none;
+			padding: 0;	
+		}
+
+		.last {
+			@media (min-width: 640px) {
 				margin: 0;
-				font-style: italic;
-				font-size: 0.9em;
 			}
-
-			.exp-blurb {
-				margin: 0;
-				font-size: 0.9em;
-			}
-		}
-	}
-
-	.education {
-
-		.ed-school {
-			margin: 0;
-		}
-
-		.ed-loc-date {
-			margin: 0;
-			font-style: italic;
-			font-size: 0.9em;
-		}
-	}
-
-	.achievements {
-		list-style: none;
-		padding: 0;
-	}
-
-	.interests {
-		list-style: none;
-		padding: 0;	
-	}
-
-	.last {
-		@media (min-width: 640px) {
-			margin: 0;
 		}
 	}
 }

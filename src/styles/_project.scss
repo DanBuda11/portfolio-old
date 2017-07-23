@@ -2,13 +2,7 @@
 	margin-top: 0.6em;
 
 	.breadcrumb {
-		text-decoration: none;
-		color: $white;
-		margin-left: 0.7em;
-		background-color: $red;
-		padding: 0.3em 0.7em 0.3em 0.5em;
-		border-radius: 0.4em;
-		transition: all 0.3s ease 0;
+		@include breadcrumb();
 
 		.fa-long-arrow-left {
 			vertical-align: middle;

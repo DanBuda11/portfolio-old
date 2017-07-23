@@ -1,6 +1,14 @@
 .about {
 	padding: 0 1em;
 
+	.breadcrumb {
+		@include breadcrumb();
+
+		.fa-long-arrow-left {
+			vertical-align: middle;
+		}
+	}
+
 	p {
 		line-height: 1.25em;
 	}

@@ -36,5 +36,6 @@ render(
 
 	// New image for danbuda.com project once it's ready to deploy
 
-	// Add breadcrumbs/back buttons to all pages and redo styling
-		// (it doesn't look very good)
+	// Redo breadcrumb styling (use mixin mostly)
+
+	// Clean up all files (remove uneccesary comments, add relevant comments)
