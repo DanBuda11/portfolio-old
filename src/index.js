@@ -37,10 +37,7 @@ render(
 	// Create and add all content wherever it's needed
 		// Home page bio, about page, project blurbs, all resume stuff
 
-	// New image for React Navbar that removes the whitespace
 	// New image for danbuda.com project once it's ready to deploy
-	// Image for Webpack Framework project (code snapshot?)
-	// Favicon
 
 	// Add breadcrumbs/back buttons to all pages and redo styling
 		// (it doesn't look very good)

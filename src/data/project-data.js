@@ -33,7 +33,7 @@ export default [
 	},
 	{
 		name: 'Webpack Framework',
-		image: 'no-image.png',
+		image: 'webpack.png',
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/react-redux-webpack',
 		liveLink: '',
