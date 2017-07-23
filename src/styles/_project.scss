@@ -1,0 +1,80 @@
+.project-page {
+	margin-top: 0.6em;
+
+	.breadcrumb {
+		text-decoration: none;
+		color: $white;
+		margin-left: 0.7em;
+		background-color: $red;
+		padding: 0.3em 0.7em 0.3em 0.5em;
+		border-radius: 0.4em;
+		transition: all 0.3s ease 0;
+
+		.fa-long-arrow-left {
+			vertical-align: middle;
+		}
+	}
+
+	.breadcrumb:hover {
+		background-color: $charcoal;
+	}
+
+	.project-name {
+		margin-top: 0.5em;
+		text-align: center;
+		font-size: 1.8em;
+	}
+
+	.project-image {
+		width: 90%;
+		margin: 1em auto;
+		display: block;
+		max-width: 300px;
+		border-radius: 1em;
+	}
+
+	.project-blurb {
+		padding-left: 1em;
+		max-width: 80%;
+		margin: 0 auto 1em;
+		text-align: center;
+	}
+
+	.project-link {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		margin: 0.7em;
+		background-color: $charcoal;
+		color: $white;
+		padding: 0.6em;
+		width: 80%;
+		margin: 0.5em auto 0;
+		border-radius: 0.3em;
+		transition: all 0.3s ease 0;
+		max-width: 300px;
+	}
+
+	.project-link:hover {
+		opacity: 0.5;
+	}
+
+	.project-tech {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		max-width: 400px;
+		margin: 1em auto;
+
+		.project-tech-item {
+			background-color: $red;
+			color: $white;
+			padding: 0.6em;
+			border-radius: 0.3em;
+			width: 4.5em;
+			text-align: center;
+			margin: 0.3em 0.2em;	
+		}
+	}
+}

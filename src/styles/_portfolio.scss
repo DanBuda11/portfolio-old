@@ -1,0 +1,134 @@
+.portfolio {
+
+	.portfolio-title {
+		text-align: center;
+	}
+
+	.portfolio-bio {
+		overflow: hidden;
+
+		@media (min-width: 480px) {
+			display: flex;
+			flex-direction: row;
+			padding: 1em;
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		.bio-pic {
+			display: none;
+
+			@media (min-width: 480px) {
+				display: block;
+				float: left;
+				width: 40%;
+				height: 100%;
+				border-radius: 1em;
+				max-width: 10em;
+			}
+		}
+
+		.bio-blurb {
+			text-align: center;
+			line-height: 1.25em;
+			padding: 0 1em;
+			margin: 0;
+
+			@media (min-width: 480px) {
+				float: right;
+				text-align: left;
+				padding-right: 0;
+			}
+		}
+	}
+
+	.projects-grid {
+		max-width: 900px;
+		margin: 0 auto;
+
+		@media (min-width: 480px) {
+			display: grid;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-content: flex-start;
+			grid-template-columns: repeat(auto-fill, 50%);
+		}
+
+		@media (min-width: 760px) {
+			grid-template-columns: repeat(auto-fill, 33%);
+		}
+
+		.project-thumb {
+			width: 90%;
+			margin: 1em auto;
+			text-decoration: none;
+			display: block;
+			border-radius: 1em;
+			background-color: $charcoal;
+			padding-bottom: 0.1em;
+
+			@media (min-width: 760px) {
+				transition: all .2s ease-in-out;
+			}
+
+			.project-thumb-image-div {
+
+				img {
+					width: 100%;
+					border-radius: 0.9em 0.9em 0 0;
+				}
+			}
+
+			.project-thumb-tech-div {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				margin-top: 0.7em;
+
+				.project-thumb-tech-item {
+					color: $white;
+					font-size: 0.8em;
+				}
+			}
+
+			.project-thumb-name-div {
+
+				p {
+					text-align: center;
+					background-color: $red;
+					color: $white;
+					padding: 0.7em;
+					margin-left: 2em;
+					margin-right: 2em;
+					border-radius: 0.4em;
+
+					@media (min-width: 480px) {
+						font-size: 0.8em;
+					}
+
+					@media (min-width: 490px) {
+						font-size: 0.9em;
+					}
+
+					@media (min-width: 543px) {
+						font-size: 1em;
+					}
+
+					@media (min-width: 760px) {
+						font-size: 0.9em;
+					}
+
+					@media (min-width: 814px) {
+						font-size: 1em;
+					}
+				}
+			}
+		}
+
+		.project-thumb:hover {
+			@media (min-width: 760px) {
+				transform: scale(1.1);
+			}
+		}
+	}
+}

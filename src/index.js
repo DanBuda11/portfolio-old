@@ -13,16 +13,13 @@ render(
 
 // Notes
 
+	// Spellcheck all content!
+
 	// Make README extensive
 		// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf...
 
 	// Before final push to GitHub & deploy, clean up code really well:
 		// Create additional mixins & Sass variables if warranted
-		// Clean up SCSS completely
-			// Remove stuff from media breakpoints and put inside selectors?
-			// Break SCSS into multiple files and import?
-			// Remove any CSS that I don't think actually does anything
-			// (test it all in the browser too)
 		// Test CSS breakpoints on all devices (make a Surge):
 			// my phone, iPad, laptop, PC
 			// Susie's phone
@@ -41,13 +38,3 @@ render(
 
 	// Add breadcrumbs/back buttons to all pages and redo styling
 		// (it doesn't look very good)
-
-	// Dropdown not closing when navigating pages if it was open when
-		// clicked to navigate
-		// I THINK THIS IS FIXED NOW
-
-	// Problems when manually typing in urls - can't find stuff
-	// Also can't load anything other than the home page on browser
-	// page refresh
-		// Even when the page reloads after saving changes to the code
-			// I THINK THIS IS FIXED NOW - UPDATED WEBPACK.CONFIG.JS
