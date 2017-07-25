@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 const extractSass = new ExtractTextPlugin({
 	filename: '[name].[contenthash].css',
@@ -10,7 +11,9 @@ const extractSass = new ExtractTextPlugin({
 
 const VENDOR_LIBS = [
 	'react',
-	'react-dom'
+	'react-dom',
+	'react-router',
+	'react-router-dom'
 ];
 
 module.exports = {
@@ -38,6 +41,7 @@ module.exports = {
 				test: /\.scss$/,
 				use: ExtractTextPlugin.extract([
 					'css-loader',
+					'postcss-loader',
 					'sass-loader'
 				])
 			},
@@ -65,6 +69,11 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			template: 'src/index.html'
+		}),
+		new webpack.LoaderOptionsPlugin({
+			options: {
+				postcss: [autoprefixer]
+			}
 		}),
 		extractSass
 	]

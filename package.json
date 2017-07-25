@@ -16,6 +16,7 @@
   "author": "Dan Buda",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.0",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -29,7 +30,9 @@
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "image-webpack-loader": "^3.3.1",
+    "loader-utils": "^1.1.0",
     "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
