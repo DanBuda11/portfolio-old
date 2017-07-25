@@ -17,6 +17,7 @@ export default class Header extends Component {
 		const codepen = 'https://codepen.io/danbuda/';
 		const linkedin = 'https://www.linkedin.com/in/danbuda/';
 		const twitter = 'https://twitter.com/danielbuda';
+		
 		return (
 			<div className="nav">
 				<Link to="/"><img className="nav-img" src="/src/images/dan.png" /></Link>

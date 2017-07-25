@@ -1,8 +1,9 @@
 .about {
 	padding: 0 1em;
+	margin-top: 0.6em;
 
 	.breadcrumb {
-		@include breadcrumb();
+		@include breadcrumb(0);
 
 		.fa-long-arrow-left {
 			vertical-align: middle;

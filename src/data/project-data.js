@@ -41,7 +41,7 @@ export default [
 	},
 	{
 		name: 'danbuda.com',
-		image: 'no-image.png',
+		image: 'webpack.png',
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/portfolio3',
 		liveLink: 'http://danbuda.com/',
@@ -64,8 +64,3 @@ export default [
 		tech: ['Webpack', 'Sass', 'ES7', 'Lodash', 'Axios']
 	}
 ];
-
-
-
-
-

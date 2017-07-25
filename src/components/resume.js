@@ -3,20 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { skills, experience } from '../data/resume-data';
 
-// Break coding skills into front, back, database,
-// testing, other or something like that
-	// Try to do it within the map function for skills
-	// and not have to use multiple maps
-
-	// front end
-	// back end
-	// database
-	// ajax
-	// design
-	// project bundling
-	// other libraries can go in their place (mongoose for back end,
-	// axios for ?) or maybe don't go this deep
-
 export default class Resume extends Component {
 	constructor(props) {
 		super(props);

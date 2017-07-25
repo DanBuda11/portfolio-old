@@ -18,12 +18,12 @@
 	color: $blue;
 }
 
-@mixin breadcrumb () {
+@mixin breadcrumb ($marginleft) {
 	text-decoration: none;
 	color: $white;
-	margin-left: 0.7em;
+	margin-left: $marginleft;
 	background-color: $red;
-	padding: 0.3em 0.7em 0.3em 0.5em;
+	padding: 0.4em 0.7em 0.5em 0.5em;
 	border-radius: 0.4em;
 	transition: all 0.3s ease 0;
 }

@@ -1,7 +1,8 @@
 .resume-container {
+	margin-top: 0.6em;
 	
 	.breadcrumb {
-		@include breadcrumb();
+		@include breadcrumb(0.7em);
 
 		.fa-long-arrow-left {
 			vertical-align: middle;
