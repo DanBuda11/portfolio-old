@@ -23,7 +23,7 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'build'),
-		publicPath: '/',
+		publicPath: '',
 		filename: '[name].[chunkhash].js'
 	},
 	module: {
