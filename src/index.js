@@ -11,6 +11,9 @@ render(
 	, document.getElementById('entry')
 );
 
+// add budget party, mustashe, handlebars, socket.io
+
+
 // Notes
 
 	// Add & Spellcheck all content
@@ -28,6 +31,7 @@ render(
 			// skills finalized & ordered
 			// experience blurbs finalized and check all other info
 			// achievements, interests finalized & ordered
+			// Link to Open Austin Budget Party working
 		// home page bio
 		// All project blurbs
 		// All project tech stacks

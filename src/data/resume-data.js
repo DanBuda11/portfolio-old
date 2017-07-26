@@ -17,7 +17,9 @@ const skills = [
 	'MongoDB',
 	'Redux',
 	'Express',
-	'Photoshop'
+	'Photoshop',
+	'socket.io',
+	'Mustache.js'
 ];
 
 const experience = [
