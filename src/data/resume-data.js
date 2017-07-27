@@ -18,7 +18,7 @@ const skills = [
 	'Redux',
 	'Express',
 	'Photoshop',
-	'socket.io',
+	'Socket.IO',
 	'Mustache.js'
 ];
 

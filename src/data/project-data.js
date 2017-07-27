@@ -29,7 +29,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/node-chat-app',
 		liveLink: 'https://glacial-taiga-27544.herokuapp.com/',
-		tech: ['NodeJS', 'socket.io', 'Express', 'Moment', 'Expect', 'Mocha']
+		tech: ['NodeJS', 'Socket.IO', 'Express', 'Moment', 'Expect', 'Mocha']
 	},
 	{
 		name: 'Webpack Framework',
