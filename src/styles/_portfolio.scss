@@ -63,8 +63,8 @@
 			margin: 1em auto;
 			text-decoration: none;
 			display: block;
-			border-radius: 1em;
-			background-color: $charcoal;
+			// border-radius: 1em;
+			// background-color: $charcoal;
 			padding-bottom: 0.1em;
 
 			@media (min-width: 760px) {
@@ -72,11 +72,18 @@
 			}
 
 			.project-thumb-image-div {
-
+				box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+				transition: box-shadow 0.3s ease-in-out;
 				img {
 					width: 100%;
-					border-radius: 0.9em 0.9em 0 0;
+					// border-radius: 0.9em 0.9em 0 0;
+					display: block;
+
 				}
+			}
+
+			.project-thumb-image-div:hover {
+				box-shadow: 0 5px 15px rgba(0,0,0, 0.5);
 			}
 
 			.project-thumb-tech-div {
@@ -86,8 +93,10 @@
 				margin-top: 0.7em;
 
 				.project-thumb-tech-item {
-					color: $white;
+					color: $charcoal;
 					font-size: 0.8em;
+					font-style: italic;
+					font-weight: bold;
 				}
 			}
 
@@ -95,12 +104,13 @@
 
 				p {
 					text-align: center;
-					background-color: $red;
-					color: $white;
+					background-color: $white;
+					color: $charcoal;
 					padding: 0.7em;
 					margin-left: 2em;
 					margin-right: 2em;
 					border-radius: 0.4em;
+					font-weight: bold;
 
 					@media (min-width: 480px) {
 						font-size: 0.8em;
