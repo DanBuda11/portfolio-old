@@ -31,7 +31,7 @@
 			}
 		}
 
-		.skills, .experience, .education, .achievements, .interests {
+		.skills, .open-source, .experience, .education, .achievements, .interests {
 			@media (min-width: 640px) {
 				float: right;
 				margin: 0 0 2em 0;
@@ -61,6 +61,25 @@
 					text-align: left;
 				}
 			}
+		}
+
+		.open-source {
+
+			.open-source-name {
+				margin: 0;
+			}
+
+			.open-source-blurb {
+				margin: 0;
+				font-size: 0.9em;
+			}
+
+			.open-source-link {
+				font-size: 0.9em;
+				text-decoration: none;
+				color: $red;
+			}
+
 		}
 
 		.experience {

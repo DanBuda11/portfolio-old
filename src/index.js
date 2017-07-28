@@ -10,47 +10,32 @@ render(
 	, document.getElementById('entry')
 );
 
-// add budget party, mustashe, handlebars, socket.io
+// Site screwing up again when try to refresh from any project page
+// Can't load some images again when running in localhost
 
+// Add and SPELLCHECK all content before finishing styling
+	// Home page bio
+	// Project blurbs
+	// About page
+	// Project tech stacks (& correct spelling in both resume skills and projects)
+	// Resume blurbs, Open Austin blurb & title, achievements, interests
+	// Resume skills finalized & ordered
 
-// Notes
+	// Go thru each page and tweak styling along all breakpoints
+		// Make sure transitions only on desktop sizes
+		// Project page: don't like red padding around tech items
+			// Change the appearance of link buttons & make transition
+			// only on desktop sizes
+		// Create additional mixins & variables if/where useful
+		// When styling done, clean up all SCSS files removing unused code
+		// Test on all devices (make a surge): phone, ipad,
+		// both computers (Chrome & IE),
+			// Susie's phone (Safari & Chrome)
+		// Add new image for danbuda.com project
 
-	// Add & Spellcheck all content
-	// Tweak styling on each page
-	// Surge and check on different devices
-	// Add image for danbuda.com
-	// Complete README
-	// Final code cleanup of all files
-	// Deploy, make repo public & make any changes to the repo &
-		// the repo of the previous portfolio version
+// README
+	// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf...
 
-	// Add & SPELLCHECK all content:
-		// About page
-		// resume
-			// skills finalized & ordered
-			// experience blurbs finalized and check all other info
-			// achievements, interests finalized & ordered
-			// Link to Open Austin Budget Party working
-		// home page bio
-		// All project blurbs
-		// All project tech stacks
-
-	// Make README extensive
-		// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf...
-
-	// Before final push to GitHub & deploy, clean up code really well:
-		// Create additional mixins & Sass variables if warranted
-		// Test CSS breakpoints on all devices (make a Surge):
-			// my phone, iPad, laptop, PC (Chrome & IE)
-			// Susie's phone
-
-	// For final styling tweaks:
-		// Look at every page at every breakpoint and just add media queries
-			// wherever I need to to fix any minor bugs
-		// Go thru each page, including header/footer and see if anything
-			// needs to look better
-		// Remove transitions/transforms for mobile/tablet screen sizes
-
-	// New image for danbuda.com project once it's ready to deploy
-
-	// Clean up all files
+// Clean up all files & final push
+// Deploy, make repo public & make any changes to the repo & the repo
+	// of the previous portfolio version

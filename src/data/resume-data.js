@@ -19,7 +19,8 @@ const skills = [
 	'Express',
 	'Photoshop',
 	'Socket.IO',
-	'Mustache.js'
+	'Mustache.js',
+	'Handlebars.js'
 ];
 
 const experience = [

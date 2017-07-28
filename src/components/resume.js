@@ -46,11 +46,11 @@ export default class Resume extends Component {
 						<ul className="skills">
 							{skills}
 						</ul>
-						<h3>Open Source Contributions</h3>
+						<h3 className="resume-title">Open Source Contributions</h3>
 						<div className="open-source">
-							<p>Open Austin Budget Party</p>
-							<p>Open source project to help Austin citizens understand the city's budget-making process.</p>
-							<a href="">Link</a>
+							<p className="open-source-name">Open Austin Budget Party</p>
+							<p className="open-source-blurb">Open source project to help Austin citizens understand the city's budget-making process.</p>
+							<a className="open-source-link" href="https://github.com/open-austin/budgetparty">Link</a>
 						</div>
 						<h3 className="resume-title">Experience</h3>
 						<ul className="experience">

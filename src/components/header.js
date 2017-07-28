@@ -35,8 +35,8 @@ export default class Header extends Component {
 					<div className="nav-mobile-3">
 						<a href={twitter} target="_blank"><i className="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
 						<a href={codepen} target="_blank"><i className="fa fa-2x fa-codepen" aria-hidden="true"></i></a>
-						<a href={linkedin} target="_blank"><i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
 						<a href={github} target="_blank"><i className="fa fa-2x fa-github-square" aria-hidden="true"></i></a>
+						<a href={linkedin} target="_blank"><i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div className="nav-tablet">
@@ -54,8 +54,8 @@ export default class Header extends Component {
 						<div className="nav-tablet-3">
 							<a href={twitter} target="_blank"><i className="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
 							<a href={codepen} target="_blank"><i className="fa fa-2x fa-codepen" aria-hidden="true"></i></a>
-							<a href={linkedin} target="_blank"><i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
 							<a href={github} target="_blank"><i className="fa fa-2x fa-github-square" aria-hidden="true"></i></a>
+							<a href={linkedin} target="_blank"><i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
 						</div>
 					</div>
 				</div>
@@ -72,8 +72,8 @@ export default class Header extends Component {
 					<div className="nav-desktop-3">
 						<a href={twitter} target="_blank"><i className="fa fa-twitter-square" aria-hidden="true"></i></a>
 						<a href={codepen} target="_blank"><i className="fa fa-codepen" aria-hidden="true"></i></a>
-						<a href={linkedin} target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
 						<a href={github} target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
+						<a href={linkedin} target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>

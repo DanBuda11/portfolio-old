@@ -5,7 +5,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/real-estate-app',
 		liveLink: 'http://home-finder-lite.herokuapp.com/',
-		tech: ['React', 'NodeJS', 'Postgres', 'Backbone', 'Sass', 'ESLint', 'Filepicker', 'jQuery', 'Express', 'Passport', 'Bcrypt', 'Validator', 'Gulp']
+		tech: ['React', 'Node.js', 'PostgreSQL', 'Backbone.js', 'Sass', 'ESLint', 'Filepicker', 'jQuery', 'Express', 'Passport', 'Bcrypt', 'Validator', 'Gulp']
 	},
 	{
 		name: 'Buda Fooda',
@@ -29,7 +29,7 @@ export default [
 		blurb: 'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
 		githubLink: 'https://github.com/DanBuda11/node-chat-app',
 		liveLink: 'https://glacial-taiga-27544.herokuapp.com/',
-		tech: ['NodeJS', 'Socket.IO', 'Express', 'Moment', 'Expect', 'Mocha']
+		tech: ['Node.js', 'Socket.IO', 'Express', 'Moment', 'Expect', 'Mocha']
 	},
 	{
 		name: 'Webpack Framework',
