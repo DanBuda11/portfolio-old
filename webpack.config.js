@@ -9,12 +9,7 @@ const extractSass = new ExtractTextPlugin({
 	disable: process.env.NODE_ENV === 'development'
 });
 
-const VENDOR_LIBS = [
-	'react',
-	'react-dom',
-	'react-router',
-	'react-router-dom'
-];
+const VENDOR_LIBS = ['react', 'react-dom', 'react-router', 'react-router-dom'];
 
 module.exports = {
 	entry: {
@@ -49,8 +44,7 @@ module.exports = {
 				test: /\.png$/,
 				use: [
 					{
-						loader: 'url-loader',
-						options: { limit: 40000 }
+						loader: 'file-loader'
 					},
 					{
 						loader: 'image-webpack-loader',

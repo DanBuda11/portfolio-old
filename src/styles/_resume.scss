@@ -1,6 +1,6 @@
 .resume-container {
 	margin-top: 0.6em;
-	
+
 	.breadcrumb {
 		@include breadcrumb(0.7em);
 
@@ -11,7 +11,7 @@
 
 	.resume {
 		padding-left: 1em;
-		
+
 		@media (min-width: 640px) {
 			overflow: hidden;
 			padding: 2em;
@@ -31,7 +31,12 @@
 			}
 		}
 
-		.skills, .open-source, .experience, .education, .achievements, .interests {
+		.skills,
+		.open-source,
+		.experience,
+		.education,
+		.achievements,
+		.interests {
 			@media (min-width: 640px) {
 				float: right;
 				margin: 0 0 2em 0;
@@ -64,7 +69,6 @@
 		}
 
 		.open-source {
-
 			.open-source-name {
 				margin: 0;
 			}
@@ -79,7 +83,6 @@
 				text-decoration: none;
 				color: $red;
 			}
-
 		}
 
 		.experience {
@@ -113,12 +116,15 @@
 		}
 
 		.education {
-
 			.ed-school {
 				margin: 0;
 			}
 
-			.ed-loc-date {
+			.ed-degree {
+				margin: 0;
+			}
+
+			.ed-loc {
 				margin: 0;
 				font-style: italic;
 				font-size: 0.9em;
@@ -132,7 +138,7 @@
 
 		.interests {
 			list-style: none;
-			padding: 0;	
+			padding: 0;
 		}
 
 		.last {
