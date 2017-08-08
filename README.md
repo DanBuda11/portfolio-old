@@ -5,9 +5,9 @@ This project is an update to a previous version of my portfolio. While the previ
 The site is fully responsive and built with a mobile-first mindset.
 
 React (version), Sass with mixins, custom Webpack framework, React Router v4, ES6, rimraf,
-Font Awesome, Flexbox
+Font Awesome, Flexbox, CSS Grid, Webpack
 
 Used Pablo to help create standard size images and TinyPNG to shrink them all down
 
-Webpack framework include hashing code segments, image size limits for faster loading
+Webpack v2 framework include hashing code segments, image size limits for faster loading
 
