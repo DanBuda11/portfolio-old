@@ -89,7 +89,7 @@ export default class Resume extends Component {
 					<p className="achievements">
 						Private real estate investor, Texas Democracy Foundation Next
 						Generation Leaders 2012, City of Austin Impact Fee Committee Member
-						2010-2011, Scuba certified
+						2010-2011, Scuba certified, CPR certified, youth soccer coach
 					</p>
 					<h3 className="resume-title last">Interests</h3>
 					<p className="interests last">
