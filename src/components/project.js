@@ -11,7 +11,8 @@ export default class Project extends Component {
 	}
 
 	componentDidMount() {
-		document.body.scrollTop = 0;
+		// document.body.scrollTop = 0;
+		window.scrollTo(0,0);
 		
 		let mobile = document.querySelector('.nav-mobile');
 		let tablet = document.querySelector('.nav-tablet-dropdown');
@@ -21,6 +22,7 @@ export default class Project extends Component {
 	}
 
 	render() {
+		console.log(this.state.project.image);
 		const tech = this.state.project.tech.map((t, i) => {
 			return (
 				<p className="project-tech-item" key={i}>{t}</p>

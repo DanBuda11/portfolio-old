@@ -10,8 +10,17 @@ render(
 	, document.getElementById('entry')
 );
 
+// Build bundle not loading correctly
+	// Probably need to make changes to webpack.config.js
+
 // Site screwing up again when try to refresh from any project page
+	// Working again but not sure exactly why. All I changed was
+	// image loader in webpack.config.js
 // Can't load some images again when running in localhost
+	// Working again after rejiggering webpack.config.js
+
+// Scroll issues exist when going to project pages
+	// Working again after chaning scroll method to 'window'
 
 // Add and SPELLCHECK all content before finishing styling
 	// Home page bio

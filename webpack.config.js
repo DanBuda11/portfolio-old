@@ -18,7 +18,7 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'build'),
-		publicPath: '',
+		publicPath: '/',
 		filename: '[name].[chunkhash].js'
 	},
 	module: {
@@ -44,11 +44,10 @@ module.exports = {
 				test: /\.png$/,
 				use: [
 					{
-						loader: 'file-loader'
+						loader: 'file-loader?hash=sha512&digest=hex&name=[hash].[ext]'
 					},
 					{
-						loader: 'image-webpack-loader',
-						query: { bypassOnDebug: true }
+						loader: 'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
 					}
 				]
 			}
