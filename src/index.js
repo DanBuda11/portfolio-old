@@ -29,6 +29,8 @@ render(
 	// Project tech stacks (& correct spelling in both resume skills and projects)
 	// Resume blurbs, Open Austin blurb & title, achievements, interests
 	// Resume skills finalized & ordered
+	// For webpack framework project, make sure to say it's an onging
+		// project
 
 	// Go thru each page and tweak styling along all breakpoints
 		// Make sure transitions only on desktop sizes

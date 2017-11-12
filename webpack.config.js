@@ -18,6 +18,8 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'build'),
+		// Changed this when fixing scrolling, image loading and
+		// page refresh issues. Was just ''
 		publicPath: '/',
 		filename: '[name].[chunkhash].js'
 	},
