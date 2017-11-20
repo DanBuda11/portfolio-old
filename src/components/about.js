@@ -16,11 +16,10 @@ export default class About extends Component {
 		return (
 			<div className="about">
 				<Link className="breadcrumb" to="/"><i className="fa fa-2x fa-long-arrow-left"></i></Link>
-				<p>Dan has been meddling in coding since middle school in the early 90s, initially learning BASIC and making games and quizzes for his friends. He eventually taught himself HTML and CSS when they arrived on the scene and has been passionite about making things ever since.</p>
-				<p>Outside of a love of all things coding, Dan has spent time in financial services, real estate and politics. He currently hold his real estate license and help clients buy and sell homes and investment property. He has also owned and maneged his own investment property since 2009. Prior to real estate, Dan spent six years working at the Texas Capitol, ultimately serving as Chief of Staff to State Senator Wendy Davis. Dan ran for a spot on Austin City Council in 2014.</p>
-				<p>Outside of coding and professional aspirations, Dan loves to travel, and has lived in Germany and China. He loves to scuba dive with his wife, Susie.</p>
-				<p>Music has also been a hobby for years. Piano lessons started as a child and continued thru high school when he decided to pick up the guitar and bass.</p>
-				<p>Dan also loves sports, with favorites being soccer, tennis and golf.</p>
+				<p>Dan has dabbled with code since middle school in the early 90s, initially learning BASIC and making games and quizzes for his friends. He later taught himself HTML and CSS when they were they were the cool new things and has been passionate about making things ever since. He primarily works with JavaScript in both the front and back end but enjoys the challenge of continuing to learn new skills.</p>
+				<p>Outside of a love of all things coding, Dan currently holds his real estate license and owns and manages his own investment property. Prior to all that fun stuff, he worked for six years at the Texas Capitol, ultimately serving as Chief of Staff to State Senator Wendy Davis. Dan was a candidate for Austin City Council in 2014.</p>
+				<p>Dan loves to travel and scuba dive with his wife Susie and has lived overseas in both Germany and China. He occasionally plays guitar, bass and piano (and is still a bit sore his mom sold his saxophone after high school).</p>
+				<p>A lifelong soccer player, Dan has also recently coached youth soccer. He also enjoys tennis, golf and hitting the gym (albeit not in a “bro” kinda way).</p>
 			</div>
 		);
 	}

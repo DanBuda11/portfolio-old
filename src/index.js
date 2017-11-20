@@ -24,7 +24,6 @@ render(
 
 // Add and SPELLCHECK all content before finishing styling
 	// Project blurbs
-	// About page
 	// Project tech stacks (& correct spelling in both resume skills and projects)
 	// Resume blurbs, Open Austin blurb & title, achievements, interests
 	// Resume skills finalized & ordered
