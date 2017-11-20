@@ -23,7 +23,6 @@ render(
 	// Working again after chaning scroll method to 'window'
 
 // Add and SPELLCHECK all content before finishing styling
-	// Home page bio
 	// Project blurbs
 	// About page
 	// Project tech stacks (& correct spelling in both resume skills and projects)
