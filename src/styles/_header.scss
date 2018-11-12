@@ -1,6 +1,6 @@
 .nav {
 	overflow: hidden;
-	background-color: $charcoal;
+	// background-color: $black;
 	color: $blue;
 
 	.nav-img {
@@ -82,7 +82,7 @@
 
 			a:hover {
 				background-color: $blue;
-				color: $charcoal;
+				color: $white;
 			}
 		}
 
@@ -145,7 +145,7 @@
 			a:hover {
 				@media (min-width: 760px) {
 					background-color: $blue;
-					color: $charcoal;
+					color: $white;
 				}
 			}
 		}

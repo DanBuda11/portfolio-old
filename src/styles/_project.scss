@@ -3,6 +3,9 @@
 
 	.breadcrumb {
 		@include breadcrumb(0.7em);
+		// transition: all 0.3s ease;
+		// transition: all 0.3s ease;
+		// display: inline-block;
 
 		.fa-long-arrow-left {
 			vertical-align: middle;
@@ -10,18 +13,21 @@
 	}
 
 	.breadcrumb:hover {
-		background-color: $charcoal;
+		color: $white;
+		background-color: $blue;
+		// background-color: $black;
+		// transform: scale(1.1);
 	}
 
 	.project-name {
-		margin-top: 0.5em;
+		margin-top: 1em;
 		text-align: center;
 		font-size: 1.8em;
 	}
 
 	.project-image {
 		width: 90%;
-		margin: 1em auto;
+		margin: 4em auto;
 		display: block;
 		max-width: 300px;
 		// border-radius: 1em;
@@ -31,8 +37,9 @@
 	.project-blurb {
 		padding-left: 1em;
 		max-width: 80%;
-		margin: 0 auto 1em;
-		text-align: center;
+		margin: 0 auto 2em;
+		// text-align: center;
+		line-height: 1.4;
 	}
 
 	.project-link {
@@ -40,19 +47,19 @@
 		text-align: center;
 		text-decoration: none;
 		margin: 0.7em;
-		background-color: $charcoal;
-		color: $white;
-		padding: 0.6em;
+		// background-color: $black;
+		color: $blue;
+		// padding: 0.6em;
 		width: 80%;
 		margin: 0.5em auto 0;
-		border-radius: 0.3em;
-		transition: all 0.3s ease 0;
+		// border-radius: 0.3em;
+		// transition: all 0.3s ease 0;
 		max-width: 300px;
 	}
 
 	.project-link:hover {
 		// opacity: 0.5;
-		color: $blue;
+		// color: $blue;
 	}
 
 	.project-tech {
@@ -61,14 +68,14 @@
 		justify-content: space-around;
 		flex-wrap: wrap;
 		max-width: 400px;
-		margin: 1em auto;
+		margin: 2em auto;
 
 		.project-tech-item {
-			background-color: $red;
+			background-color: $black;
 			color: $white;
-			padding: 0.6em;
+			padding: 0.3em;
 			border-radius: 0.3em;
-			width: 4.5em;
+			// width: 4.5em;
 			text-align: center;
 			margin: 0.3em 0.2em;	
 		}

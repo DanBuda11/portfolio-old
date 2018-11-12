@@ -20,10 +20,11 @@
 
 @mixin breadcrumb ($marginleft) {
 	text-decoration: none;
-	color: $white;
+	color: $blue;
 	margin-left: $marginleft;
-	background-color: $red;
-	padding: 0.4em 0.7em 0.5em 0.5em;
+	background-color: $white;
+	padding: 0 10px;
 	border-radius: 0.4em;
-	transition: all 0.3s ease 0;
+	transition: all 0.3s ease;
+	display: inline-block;
 }

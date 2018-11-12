@@ -12,7 +12,6 @@ const skills = [
 	'Git/Github',
 	'jQuery',
 	'Mocha',
-	'Heroku',
 	'PostgreSQL',
 	'MongoDB',
 	'Redux',
@@ -21,10 +20,20 @@ const skills = [
 	'Socket.IO',
 	'Mustache.js',
 	'Handlebars.js',
-	'Responsive Design'
+	'Responsive Design',
+	'Gulp',
+	'Pug/Jade'
 ];
 
 const experience = [
+	{
+		title: 'Finance Policy Analyst',
+		company: 'Office of Senator Royce West',
+		location: 'Austin, TX',
+		dates: '2018-Present',
+		blurb:
+			'Analyze legislation related to the Texas state budget, taxes and pensions.'
+	},
 	{
 		title: 'Realtor',
 		company: 'Joe R. Stewart, Realtors',
@@ -57,23 +66,6 @@ const experience = [
 		blurb:
 			'Directed the activities of a Texas Senate committee dealing with policy issues related to disaster mitigation and emergency preparedness.'
 	}
-	// },
-	// {
-	// 	title: 'Financial Advisor',
-	// 	company: 'Prudential Financial',
-	// 	location: 'Troy, MI',
-	// 	dates: '2002-2005',
-	// 	blurb:
-	// 		'Worked with personal and small business clients to create long term financial strategies for income security and retirement.'
-	// },
-	// {
-	// 	title: 'Marketing & Web Design Intern',
-	// 	company: 'GoFly Group',
-	// 	location: 'Shanghai, China',
-	// 	dates: '2000',
-	// 	blurb:
-	// 		"Perfromed market for a Shanghai-based mergers & acquisition technology firm. Designed and developed company's English and Chinese version websites."
-	// }
 ];
 
 export { skills, experience };

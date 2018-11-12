@@ -1,6 +1,8 @@
 .about {
 	padding: 0 1em;
-	margin-top: 0.6em;
+	margin: 0.6em auto 0;
+	width: 90%;
+	max-width: 700px;
 
 	.breadcrumb {
 		@include breadcrumb(0);
@@ -10,7 +12,12 @@
 		}
 	}
 
+	.breadcrumb:hover {
+		color: $white;
+		background-color: $blue;
+	}
+
 	p {
-		line-height: 1.25em;
+		line-height: 1.4em;
 	}
 }
