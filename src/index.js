@@ -10,15 +10,6 @@ render(
   document.getElementById('entry')
 );
 
-// Add any remaining project content; read thru and spellcheck everything on all pages
-// Finish styling - start with mobile and work my way out, try to remove excess media queries
-// Create favicon package and do the same as I did with TxLege Countdown
-// Need og:image meta link to image
-// Consistent spelling of tech items in projects, project thumbs, resume
-// Cross-device/browser testing (phone/tablet simluators, firefox, safari)
-// Add image for this portfolio for its project entry & something "pablo-sized" for the readme
-// finalize content of readme.md
-// change to this repo for Netlify deploy, make this repo public and make the previous portfolio private
+// Disable CSS transitions on all smaller screens, spell check everything, check styling mobile to desktop, remove any dead CSS, cross device/browser testing
 
-// README
-// Credit everything I used: Pablo, TinyPNG, Font Awesome, Webpack, rimraf...
+// Deploy: rename github folder for previous portfolio and make it private, rename this github folder portfolio and make it public, make sure it deploys correcly to Netlify, check favicons once it's deployed, accessibility audits once deployed

@@ -14,7 +14,6 @@
 	}
 
 	.project-name {
-		margin-top: 1em;
 		text-align: center;
 		font-size: 1.8em;
 	}
@@ -28,8 +27,8 @@
 	}
 
 	.project-blurb {
-		padding-left: 1em;
-		max-width: 80%;
+		padding: 0 1em;
+		max-width: 600px;
 		margin: 0 auto 2em;
 		line-height: 1.4;
 	}

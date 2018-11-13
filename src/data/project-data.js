@@ -11,7 +11,7 @@ export default [
       'Node.js',
       'PostgreSQL',
       'Backbone.js',
-      'SCSS',
+      'Sass',
       'Express',
       'Passport',
       'Bcrypt',
@@ -25,7 +25,7 @@ export default [
       "This project was done for several professional and personal reasons. Professionally, as a staffer in the Texas Legislature, I wanted to have a quick reference to all of the deadlines during a legislative session, as well as a reminder of when session is about to rear its ugly head and how much time before it's all over. Personally, this was a great project to practice using design tools such as use of white space, flexbox and CSS grid, CSS transitions and gradients. It also gave me a chance to (quite heavily) use the date-fns library to help with all of the date-time calculations needed to make this all work.",
     githubLink: 'https://github.com/DanBuda11/session-countdown/',
     liveLink: 'https://txlege-countdown.netlify.com/',
-    tech: ['Gulp', 'SCSS', 'CSS Grid', 'Flexbox'],
+    tech: ['Gulp', 'Sass', 'CSS Grid', 'Flexbox'],
   },
   {
     name: 'Buda Fooda',
@@ -34,7 +34,7 @@ export default [
       "I love to cook. A lot. And while I currently store all my recipes in Google Drive, they're pretty much all PDFs, so it can be a pain to read them on my phone. So this is basically a simple app to save all my favorite recipes that is responsive to any device and make it easier to read everything. And while yes, the name is absolutely horrid, at least it rhymes...",
     githubLink: 'https://github.com/DanBuda11/recipes',
     liveLink: 'https://buda-fooda.netlify.com/',
-    tech: ['React', 'SCSS'],
+    tech: ['React', 'Sass'],
   },
   {
     name: 'Gulp Framework',
@@ -42,7 +42,6 @@ export default [
     blurb:
       'A front-end web development framework using Gulp.js. It includes a local server with hot reloading of changes; Sass to CSS conversion; CSS, JS and image minification.',
     githubLink: 'https://github.com/DanBuda11/gulp-framework',
-    // liveLink: 'http://reactnav-danbuda.surge.sh/',
     tech: ['Gulp', 'browser-sync', 'PostCSS', 'Autoprefixer', 'Babel 7'],
   },
   {
@@ -52,7 +51,7 @@ export default [
       "This project was completed during the runup to the Texas Legislature's 2019 session. It's a way for me to be able to get a handle on all of the funding requests from state agencies and have a quick reference in case I need one.",
     githubLink: 'https://github.com/DanBuda11/86-lar/',
     liveLink: 'https://86th-lars.netlify.com/',
-    tech: ['SCSS', 'Webpack', 'PostCSS', 'Flexbox'],
+    tech: ['Sass', 'Webpack', 'PostCSS', 'Flexbox'],
   },
   {
     name: 'Node Chat App',
@@ -74,12 +73,12 @@ export default [
   },
   {
     name: 'danbuda.com',
-    image: 'webpack.png',
+    image: 'danbudacom.png',
     blurb:
-      'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+      'My personal portfolio built with React and Webpack v2. It allowed me a chance to mess around a little with Sass mixins and CSS transitions, grid and flexbox.',
     githubLink: 'https://github.com/DanBuda11/portfolio3',
     liveLink: 'https://danbuda.com/',
-    tech: ['React', 'SCSS', 'Webpack', 'React Router 4'],
+    tech: ['React', 'Sass', 'Webpack', 'React Router v4'],
   },
   {
     name: 'React Navbar',
@@ -88,13 +87,13 @@ export default [
       'Collapsable navbar templates such as Bootstrap exist but often include a lot of extra stuff that you have to remove if you just want something simpler. This is that something simpler. I wanted to build something extremely simple and easy to modify so that it can be used in anything that just requires a simple navbar that collapses for a mobile screen.',
     githubLink: 'https://github.com/DanBuda11/collapsable-nav',
     liveLink: 'http://reactnav-danbuda.surge.sh/',
-    tech: ['React', 'SCSS'],
+    tech: ['React', 'Sass'],
   },
   {
     name: 'Star Wars API App',
     image: 'swapi.png',
     blurb:
-      'Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.',
+      "Just a fun little never-gonna-actually-finish-working-on-this kinda project that lets me geek out with Star Wars data and practice using JavaScript's async/await",
     githubLink: 'https://github.com/DanBuda11/swapi',
     liveLink: 'http://swapi-danbuda.surge.sh/',
     tech: ['Webpack', 'Sass', 'ES7', 'Lodash', 'Axios'],
