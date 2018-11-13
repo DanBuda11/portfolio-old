@@ -42,7 +42,9 @@ export default class Portfolio extends Component {
         <div className="portfolio-bio">
           <img className="bio-pic" src="/src/images/dan.png" />
           <p className="bio-blurb">
-            An Austin-based web developer focused on front-end and full-stack JavaScript projects with a passion for well designed and accessible products. But mostly he just wants to build cool things he can use.
+            An Austin-based web developer focused on front-end and full-stack
+            JavaScript projects with a passion for design and accessibility. But
+            mostly he just wants to build cool things he can use.
           </p>
         </div>
         <div className="projects-grid">{projects}</div>
