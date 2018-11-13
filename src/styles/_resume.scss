@@ -1,8 +1,7 @@
 .resume-container {
-	margin-top: 0.6em;
 
 	.breadcrumb {
-		@include breadcrumb(0.7em);
+		@include breadcrumb();
 
 		.fa-long-arrow-left {
 			vertical-align: middle;
@@ -15,7 +14,7 @@
 	}
 
 	.resume {
-		padding-left: 1em;
+		padding: 0 1em;
 
 		@media (min-width: 640px) {
 			overflow: hidden;
@@ -52,7 +51,6 @@
 		.skills {
 			list-style: none;
 			padding: 0;
-
 			display: grid;
 			flex-flow: row wrap;
 			justify-content: space-between;
@@ -70,23 +68,6 @@
 				@media (min-width: 640px) {
 					text-align: left;
 				}
-			}
-		}
-
-		.open-source {
-			.open-source-name {
-				margin: 0;
-			}
-
-			.open-source-blurb {
-				margin: 0;
-				font-size: 0.9em;
-			}
-
-			.open-source-link {
-				font-size: 0.9em;
-				text-decoration: none;
-				color: $red;
 			}
 		}
 

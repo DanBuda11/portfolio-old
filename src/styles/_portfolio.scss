@@ -23,7 +23,6 @@
 				float: left;
 				width: 40%;
 				height: 100%;
-				// border-radius: 1em;
 				max-width: 10em;
 				border-radius: 5px;
 			}
@@ -65,8 +64,6 @@
 			margin: 1em auto;
 			text-decoration: none;
 			display: block;
-			// border-radius: 1em;
-			// background-color: $charcoal;
 			padding-bottom: 0.1em;
 
 			@media (min-width: 760px) {
@@ -76,9 +73,9 @@
 			.project-thumb-image-div {
 				box-shadow: 0 0 10px rgba(0,0,0, 0.5);
 				transition: box-shadow 0.3s ease-in-out;
+				
 				img {
 					width: 100%;
-					// border-radius: 0.9em 0.9em 0 0;
 					display: block;
 
 				}
@@ -98,9 +95,7 @@
 
 				.project-thumb-tech-item {
 					color: $black;
-					// font-size: 0.8em;
 					font-style: italic;
-					// font-weight: bold;
 				}
 			}
 
@@ -110,25 +105,9 @@
 					text-align: center;
 					background-color: $white;
 					color: $black;
-					// padding: 0.7em;
-					// margin-left: 2em;
-					// margin-right: 2em;
-					// border-radius: 0.4em;
 					font-weight: bold;
 					font-size: 1.5em;
 					margin: 0.4em 0 1.5em;
-
-					@media (min-width: 480px) {
-						// font-size: 0.8em;
-					}
-
-					@media (min-width: 490px) {
-						// font-size: 0.9em;
-					}
-
-					@media (min-width: 543px) {
-						// font-size: 1em;
-					}
 
 					@media (min-width: 760px) {
 						font-size: 1.3em;
