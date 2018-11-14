@@ -9,5 +9,3 @@ render(
   </Router>,
   document.getElementById('entry')
 );
-
-// favicons should be working but not showing up in Chrome tab, dan.png not showing up in deployed site, accessibility audits once deployed (axe should be good to go)
