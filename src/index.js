@@ -10,4 +10,4 @@ render(
   document.getElementById('entry')
 );
 
-// Deploy: rename this github folder portfolio and make it public, make sure it deploys correcly to Netlify, check favicons once it's deployed, accessibility audits once deployed (axe should be good to go)
+// favicons not working, accessibility audits once deployed (axe should be good to go)
