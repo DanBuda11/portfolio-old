@@ -40,7 +40,11 @@ export default class Portfolio extends Component {
           <h3>Web Developer</h3>
         </div>
         <div className="portfolio-bio">
-          <img className="bio-pic" src="/src/images/dan.png" alt="Dan" />
+          <img
+            className="bio-pic"
+            src={require(`./../images/dan.png`)}
+            alt="Dan"
+          />
           <p className="bio-blurb">
             An Austin-based web developer focused on front-end and full-stack
             JavaScript projects with a passion for design and accessibility. But

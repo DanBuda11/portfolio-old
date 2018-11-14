@@ -21,7 +21,11 @@ export default class Header extends Component {
     return (
       <div className="nav">
         <Link to="/" aria-label="Dan">
-          <img className="nav-img" src="/src/images/dan.png" alt="Dan" />
+          <img
+            className="nav-img"
+            src={require(`./../images/dan.png`)}
+            alt="Dan"
+          />
         </Link>
         <i
           className="fa fa-bars fa-3x menu-mobile"
