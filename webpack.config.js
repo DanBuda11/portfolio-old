@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const extractSass = new ExtractTextPlugin({
   filename: '[name].[contenthash].css',
@@ -18,8 +19,6 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, 'build'),
-    // Changed this when fixing scrolling, image loading and
-    // page refresh issues. Was just ''
     publicPath: '/',
     filename: '[name].[chunkhash].js',
   },
@@ -78,6 +77,7 @@ module.exports = {
         warnings: false,
       },
     }),
+    new CopyWebpackPlugin([{ from: 'src/favicon', to: '' }]),
     extractSass,
   ],
 };
