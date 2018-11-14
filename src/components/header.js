@@ -44,16 +44,16 @@ export default class Header extends Component {
             <a href="mailto:danbuda@gmail.com">danbuda@gmail.com</a>
           </div>
           <div className="nav-mobile-3">
-            <a href={twitter} target="_blank">
+            <a href={twitter} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-2x fa-twitter-square" aria-hidden="true" />
             </a>
-            <a href={codepen} target="_blank">
+            <a href={codepen} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-2x fa-codepen" aria-hidden="true" />
             </a>
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-2x fa-github-square" aria-hidden="true" />
             </a>
-            <a href={linkedin} target="_blank">
+            <a href={linkedin} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-2x fa-linkedin-square" aria-hidden="true" />
             </a>
           </div>
@@ -76,16 +76,16 @@ export default class Header extends Component {
               <Link to="/resume">Resume</Link>
             </div>
             <div className="nav-tablet-3">
-              <a href={twitter} target="_blank">
+              <a href={twitter} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-2x fa-twitter-square" aria-hidden="true" />
               </a>
-              <a href={codepen} target="_blank">
+              <a href={codepen} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-2x fa-codepen" aria-hidden="true" />
               </a>
-              <a href={github} target="_blank">
+              <a href={github} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-2x fa-github-square" aria-hidden="true" />
               </a>
-              <a href={linkedin} target="_blank">
+              <a href={linkedin} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-2x fa-linkedin-square" aria-hidden="true" />
               </a>
             </div>
@@ -101,16 +101,16 @@ export default class Header extends Component {
             <a href="mailto:danbuda@gmail.com">danbuda@gmail.com</a>
           </div>
           <div className="nav-desktop-3">
-            <a href={twitter} target="_blank">
+            <a href={twitter} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-twitter-square" aria-hidden="true" />
             </a>
-            <a href={codepen} target="_blank">
+            <a href={codepen} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-codepen" aria-hidden="true" />
             </a>
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-github-square" aria-hidden="true" />
             </a>
-            <a href={linkedin} target="_blank">
+            <a href={linkedin} target="_blank" rel="noopener noreferrer">
               <i className="fa fa-linkedin-square" aria-hidden="true" />
             </a>
           </div>
