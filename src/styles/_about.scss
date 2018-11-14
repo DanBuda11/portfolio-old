@@ -1,5 +1,6 @@
 .about-container {
-
+	padding: 1em;
+	
 	.breadcrumb {
 		@include breadcrumb();
 
