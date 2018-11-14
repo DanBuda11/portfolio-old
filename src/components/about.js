@@ -29,21 +29,23 @@ export default class About extends Component {
           </p>
           <p>
             Outside of a love of all things coding, Dan currently holds his real
-            estate license and owns and manages his own investment property.
-            Prior to all that fun stuff, he worked for six years at the Texas
-            Capitol, ultimately serving as Chief of Staff to State Senator Wendy
+            estate license and has owned and managed his own investment
+            property. He has worked on-and-off at the Texas Capitol since 2007,
+            currently serving as a Finance Policy Analyst for State Senator
+            Royce West and was previously Chief of Staff to State Senator Wendy
             Davis. Dan was a candidate for Austin City Council in 2014.
           </p>
           <p>
             Dan loves to travel and scuba dive with his wife Susie and has lived
             overseas in both Germany and China. He occasionally plays guitar,
-            bass and piano (and is still a bit sore his mom sold his saxophone
-            after high school).
+            bass and piano (and is still a bit sore that his mom sold his
+            saxophone after high school).
           </p>
           <p>
-            A lifelong soccer player, Dan has also recently coached youth
-            soccer. He also enjoys tennis, golf and hitting the gym (albeit not
-            in a “bro” kinda way).
+            A lifelong soccer player, Dan was recently a youth soccer coach and
+            earned a certification from the Positive Coaching Alliance. He also
+            enjoys tennis, golf, running, and hitting the gym (albeit not in a
+            “bro” kinda way).
           </p>
         </div>
       </div>

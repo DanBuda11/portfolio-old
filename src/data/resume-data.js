@@ -41,7 +41,7 @@ const experience = [
     location: 'Austin, TX',
     dates: '2014',
     blurb:
-      "Ran for a spot on Austin's first single-member district city council in the South Central Austin District 5.",
+      "Ran for a spot on Austin's first single-member-district city council in the South Central Austin District 5.",
   },
   {
     title: 'Chief of Staff',

@@ -9,8 +9,10 @@
 	}
 
 	.breadcrumb:hover {
-		color: $white;
+		@media (hover: hover) {
+			color: $white;
 		background-color: $blue;
+		}
 	}
 
 	.about {

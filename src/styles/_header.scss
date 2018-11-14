@@ -80,9 +80,11 @@
 			}
 
 			a:hover {
-				background-color: $blue;
-				color: $white;
-			}
+				@media (hover: hover) {
+					background-color: $blue;
+					color: $white;
+				}
+			}	
 		}
 
 		.menu-tablet {
@@ -142,7 +144,7 @@
 			}
 
 			a:hover {
-				@media (min-width: 760px) {
+				@media (hover: hover) {
 					background-color: $blue;
 					color: $white;
 				}

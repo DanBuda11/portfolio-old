@@ -9,8 +9,10 @@
 	}
 
 	.breadcrumb:hover {
-		color: $white;
+		@media (hover: hover) {
+			color: $white;
 		background-color: $blue;
+		}
 	}
 
 	.project-name {
@@ -48,8 +50,10 @@
 	}
 
 	.project-link:hover {
-		background-color: $blue;
-		color: $white;
+		@media (hover: hover) {
+			background-color: $blue;
+			color: $white;
+		}
 	}
 
 	.project-tech {
