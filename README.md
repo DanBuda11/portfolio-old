@@ -10,5 +10,5 @@ It's built with:
 
 - React v15 and React Router v4
 - Sass with some mixins and CSS transitions, CSS Grid & Flexbox
-- A custom Webpack v2 framework that uses hasing code segments and image size limits for faster page loading
+- A custom Webpack v2 framework that uses hashing code segments and image size limits for faster page loading
 - Font Awesome for icons
