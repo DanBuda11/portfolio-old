@@ -54,6 +54,14 @@ export default [
     tech: ['Sass', 'Webpack', 'PostCSS', 'Flexbox'],
   },
   {
+    name: 'Webpack 4 React Framework',
+    image: 'webpack4.jpg',
+    blurb:
+      'A front-end React framework built with Webpack v4 and Babel 7. The focus of the project is on overall performance by making use of code splitting and minification of HTML, JavaScript, CSS and images. It includes hot reloading, autoprefixer, source mapping and code splitting.',
+    githubLink: 'https://github.com/DanBuda11/webpack4',
+    tech: ['Webpack', 'Babel 7', 'React', 'Sass'],
+  },
+  {
     name: 'Node Chat App',
     image: 'node-chat.png',
     blurb:
