@@ -42,7 +42,14 @@ export default [
     blurb:
       'A front-end web development framework using Gulp.js version 4. It includes a local development server with hot reloading; Sass to CSS compilation in development; HTML, CSS, JavaScript and image minification. The production build task strips comments and dead/unused CSS, and prefixes CSS when necessary',
     githubLink: 'https://github.com/DanBuda11/gulp-framework',
-    tech: ['Gulp', 'browser-sync', 'PostCSS', 'Autoprefixer', 'Babel 7', 'imagemin'],
+    tech: [
+      'Gulp',
+      'browser-sync',
+      'PostCSS',
+      'Autoprefixer',
+      'Babel 7',
+      'imagemin',
+    ],
   },
   {
     name: '86th Legislature Exceptional Item Requests',
